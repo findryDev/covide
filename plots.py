@@ -26,9 +26,9 @@ def create_plot(dataPlots, country):
         confirmData = pd.DataFrame(list(zip(countryData['confirm'].keys(),
                                         countryData['confirm'].values(),
                                         countryData['inDayConfirm'].values())),
-                                        columns=['Date',
-                                                 'AllCaseConfirm',
-                                                 'InDayConfirm'])
+                                   columns=['Date',
+                                            'AllCaseConfirm',
+                                            'InDayConfirm'])
         confirmData['Date'] = pd.to_datetime(confirmData['Date'])
         confirmData.sort_values('Date', inplace=True)
     else:
@@ -36,9 +36,11 @@ def create_plot(dataPlots, country):
 
     if 'deaths' in data[country].keys():
         deathsData = pd.DataFrame(list(zip(countryData['deaths'].keys(),
-                                    countryData['deaths'].values(),
-                                    countryData['inDayDeaths'].values())),
-                                    columns=['Date', 'AllCaseDeaths', 'InDayDeaths'])
+                                       countryData['deaths'].values(),
+                                       countryData['inDayDeaths'].values())),
+                                  columns=['Date',
+                                           'AllCaseDeaths',
+                                           'InDayDeaths'])
         deathsData['Date'] = pd.to_datetime(deathsData['Date'])
         deathsData.sort_values('Date', inplace=True)
     else:
@@ -46,9 +48,13 @@ def create_plot(dataPlots, country):
 
     if 'recovered' in data[country].keys():
         recoveredData = pd.DataFrame(list(zip(countryData['recovered'].keys(),
-                                        countryData['recovered'].values(),
-                                        countryData['inDayRecovered'].values())),
-                                        columns=['Date', 'AllCaseRecovered', 'InDayRecovered'])
+                                              countryData['recovered'].
+                                              values(),
+                                              countryData['inDayRecovered'].
+                                              values())),
+                                     columns=['Date',
+                                              'AllCaseRecovered',
+                                              'InDayRecovered'])
         recoveredData['Date'] = pd.to_datetime(recoveredData['Date'])
         recoveredData.sort_values('Date', inplace=True)
     else:
@@ -90,13 +96,13 @@ def create_plot(dataPlots, country):
     #               linestyle='-')
     if confirmData is not None:
         plt.plot_date(xAxis, yAxisConfirmInDay, label='Confirm In day', color='yellow',
-                    linestyle='-')
+                      linestyle='-')
     # plot deaths
     # plt.plot_date(xAxis, yAxisDeathsAll, label='Deaths', color='black', marker='.',
     #               linestyle='--')
     if deathsData is not None:
         plt.plot_date(xAxis, yAxisDeathsInDay, label='Deaths In Day', color='black',
-                    linestyle='--')
+                      linestyle='--')
     # plot recovery
     # plt.plot_date(xAxis, yAxisRecoveredAll, label='Recovered', color='green', marker='.',
     #               linestyle='-.')
