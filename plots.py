@@ -88,28 +88,43 @@ def create_plot(dataPlots, country):
         # yAxisRecoveredAll = recoveredData['AllCaseRecovered']
         yAxisRecoveredInDay = recoveredData['InDayRecovered']
     else:
-        yAxisRecoveredAll = None
+        # yAxisRecoveredAll = None
         yAxisRecoveredInDay = None
 
     # plots create
-    # plt.plot_date(xAxis, yAxisConfirmAll, label='ConfirmAll', color='yellow', marker='.',
+    # plt.plot_date(xAxis, yAxisConfirmAll,
+    #               label='ConfirmAll',
+    #               color='yellow',
+    #               marker='.',
     #               linestyle='-')
     if confirmData is not None:
-        plt.plot_date(xAxis, yAxisConfirmInDay, label='Confirm In day', color='yellow',
+        plt.plot_date(xAxis, yAxisConfirmInDay,
+                      label='Confirm In day',
+                      color='yellow',
                       linestyle='-')
     # plot deaths
-    # plt.plot_date(xAxis, yAxisDeathsAll, label='Deaths', color='black', marker='.',
+    # plt.plot_date(xAxis, yAxisDeathsAll,
+    #               label='Deaths',
+    #               color='black',
+    #               marker='.',
     #               linestyle='--')
     if deathsData is not None:
-        plt.plot_date(xAxis, yAxisDeathsInDay, label='Deaths In Day', color='black',
+        plt.plot_date(xAxis, yAxisDeathsInDay,
+                      label='Deaths In Day',
+                      color='black',
                       linestyle='--')
     # plot recovery
-    # plt.plot_date(xAxis, yAxisRecoveredAll, label='Recovered', color='green', marker='.',
+    # plt.plot_date(xAxis, yAxisRecoveredAll,
+    #               label='Recovered',
+    #               color='green',
+    #               marker='.',
     #               linestyle='-.')
     if recoveredData is not None:
-        plt.plot_date(xAxis, yAxisRecoveredInDay, label='Recovered', color='green',
-                    linestyle='-.')
-    #plots settings
+        plt.plot_date(xAxis, yAxisRecoveredInDay,
+                      label='Recovered',
+                      color='green',
+                      linestyle='-.')
+    # plots settings
     date_format = mpl_dates.DateFormatter('%d-%m-%Y')
     plt.gca().xaxis.set_major_formatter(date_format)
     plt.xlabel('Date', fontsize=15)
@@ -130,4 +145,3 @@ def create_plot(dataPlots, country):
 
 for key in data:
     create_plot(data, key)
-

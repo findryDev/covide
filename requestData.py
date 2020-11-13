@@ -6,15 +6,19 @@ urlConfirm = 'https://covid2019-api.herokuapp.com/timeseries/confirmed'
 urlDeaths = 'https://covid2019-api.herokuapp.com/timeseries/deaths'
 urlRecovery = 'https://covid2019-api.herokuapp.com/timeseries/recovered'
 
+
 def requestPlotsData():
+    # create world dictionary
     r = requests.get(urlConfirm)
     j = json.loads(r.text)
     listCountryConfirm = []
     for e in j['confirmed']:
         del e["Lat"]
         del e["Long"]
-        countryRegion = e['Country/Region'] + (' - ' + (e['Province/State'])if e['Province/State'] != '' else '')
+        countryRegion = e['Country/Region'] + (
+            ' - ' + (e['Province/State'])if e['Province/State'] != '' else '')
         dictTemp = {'country': countryRegion}
+
         del e["Country/Region"]
         del e["Province/State"]
         dictTemp.update(e)
@@ -28,7 +32,8 @@ def requestPlotsData():
     for e in j['deaths']:
         del e["Lat"]
         del e["Long"]
-        countryRegion = e["Country/Region"] + (" - " + (e["Province/State"])if e["Province/State"] != '' else '')
+        countryRegion = e["Country/Region"] + (
+            " - " + (e["Province/State"])if e["Province/State"] != '' else '')
         dictTemp = {'country': countryRegion}
         del e["Country/Region"]
         del e["Province/State"]
@@ -41,7 +46,8 @@ def requestPlotsData():
     for e in j['recovered']:
         del e["Lat"]
         del e["Long"]
-        countryRegion = e["Country/Region"] + (" - " + (e["Province/State"])if e["Province/State"] != '' else '')
+        countryRegion = e["Country/Region"] + (
+            " - " + (e["Province/State"])if e["Province/State"] != '' else '')
         dictTemp = {'country': countryRegion}
         del e["Country/Region"]
         del e["Province/State"]
@@ -57,12 +63,11 @@ def requestPlotsData():
     #                       recovery:{date:case},
     #                       inDayRecovered:{date: inOneDayCases}
     #                       maxInDayRecovered{date:maxRecoveredCases}}}}
-    # create world sumary dict ?
+    # create world summary dict ?
 
     summaryDict = {}
     valueList = []
     keyList = []
-
 
     for e in listCountryConfirm:
         country = e['country']
@@ -75,7 +80,8 @@ def requestPlotsData():
         valueList = list(summaryDict[country]['confirm'].values())
         keyList = list(summaryDict[country]['confirm'].keys())
         for i in range(len(keyList)-1):
-            summaryDict[country]['inDayConfirm'].update({keyList[i+1]: valueList[i+1] - valueList[i]})
+            summaryDict[country]['inDayConfirm'].update(
+                {keyList[i+1]: valueList[i+1] - valueList[i]})
         dayCaseDict = summaryDict[country]['inDayConfirm']
         maxKey = max(dayCaseDict, key=dayCaseDict.get)
         maxValue = dayCaseDict[maxKey]
@@ -93,7 +99,8 @@ def requestPlotsData():
         valueList = list(summaryDict[country]['deaths'].values())
         keyList = list(summaryDict[country]['deaths'].keys())
         for i in range(len(keyList)-1):
-            summaryDict[country]['inDayDeaths'].update({keyList[i+1]: valueList[i+1] - valueList[i]})
+            summaryDict[country]['inDayDeaths'].update(
+                {keyList[i+1]: valueList[i+1] - valueList[i]})
         dayCaseDict = summaryDict[country]['inDayDeaths']
         maxKey = max(dayCaseDict, key=dayCaseDict.get)
         maxValue = dayCaseDict[maxKey]
@@ -111,7 +118,8 @@ def requestPlotsData():
         valueList = list(summaryDict[country]['recovered'].values())
         keyList = list(summaryDict[country]['recovered'].keys())
         for i in range(len(keyList)-1):
-            summaryDict[country]['inDayRecovered'].update({keyList[i+1]: valueList[i+1] - valueList[i]})
+            summaryDict[country]['inDayRecovered'].update(
+                {keyList[i+1]: valueList[i+1] - valueList[i]})
         dayCaseDict = summaryDict[country]['inDayRecovered']
         maxKey = max(dayCaseDict, key=dayCaseDict.get)
         maxValue = dayCaseDict[maxKey]
