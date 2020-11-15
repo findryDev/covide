@@ -1,6 +1,5 @@
 import requests
 import json
-import pandas as pd
 
 urlConfirm = 'https://covid2019-api.herokuapp.com/timeseries/confirmed'
 urlDeaths = 'https://covid2019-api.herokuapp.com/timeseries/deaths'
@@ -8,7 +7,8 @@ urlRecovery = 'https://covid2019-api.herokuapp.com/timeseries/recovered'
 
 
 def requestPlotsData():
-    # create world dictionary
+    # create world dictionary?
+    #
     r = requests.get(urlConfirm)
     j = json.loads(r.text)
     listCountryConfirm = []
