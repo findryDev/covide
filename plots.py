@@ -24,13 +24,13 @@ logger.addHandler(file_handler)
 
 
 def create_plot(dataPlots):
-    # size of plot
-    ratio = 2/4
-    width = 30
-    height = ratio * width
-    widthHeight = (width, height)
-    plt.figure(figsize=widthHeight)
     for country in dataPlots:
+        # size of plot
+        ratio = 2/4
+        width = 30
+        height = ratio * width
+        widthHeight = (width, height)
+        plt.figure(figsize=widthHeight)
         # assigned variable
         countryData = dataPlots[country]
         # create df from data
@@ -114,7 +114,7 @@ def create_plot(dataPlots):
         #               linestyle='-')
         if confirmData is not None:
             plt.plot_date(xAxis, yAxisConfirmInDay,
-                          label='Confirm In day',
+                          label='Confirm in day',
                           color='yellow',
                           linestyle='-')
         # plot deaths
@@ -125,7 +125,7 @@ def create_plot(dataPlots):
         #               linestyle='--')
         if deathsData is not None:
             plt.plot_date(xAxis, yAxisDeathsInDay,
-                          label='Deaths In Day',
+                          label='Deaths in day',
                           color='black',
                           linestyle='--')
         # plot recovery
@@ -144,11 +144,10 @@ def create_plot(dataPlots):
         plt.gca().xaxis.set_major_formatter(date_format)
         plt.xlabel('Date', fontsize=15)
         plt.ylabel('Cases', fontsize=15)
-        plt.xticks(fontsize=15)
-        plt.yticks(fontsize=15)
+        plt.xticks(fontsize=15, rotation=90)
+        plt.yticks(fontsize=15, rotation=0)
         plt.title(f'{country}', fontsize=20)
         plt.legend(fontsize=18)
-        plt.tick_params(labelrotation=90)
         plt.grid()
         plt.tight_layout()
         plt.savefig(f'plots/{country.replace("*", "")}.png')

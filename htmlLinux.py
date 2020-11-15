@@ -17,48 +17,48 @@ def htmlMaker():
     .divTex {
     text-align: center;
     }
-    
+
     div.gallery {
       border: 1px solid #ccc;
     }
-    
+
     div.gallery:hover {
       border: 1px solid #777;
     }
-    
+
     div.gallery img {
       width: 100%;
       height: 100px;
     }
-    
+
     div.desc {
       padding: 15px;
       text-align: center;
     }
-    
+
     * {
       box-sizing: border-box;
     }
-    
+
     .responsive {
       padding: 0 6px;
       float: left;
       width: 24.99999%;
     }
-    
+
     @media only screen and (max-width: 700px) {
       .responsive {
         width: 49.99999%;
         margin: 6px 0;
       }
     }
-    
+
     @media only screen and (max-width: 500px) {
       .responsive {
         width: 100%;
       }
     }
-    
+
     .clearfix:after {
       content: "";
       display: table;
@@ -67,8 +67,8 @@ def htmlMaker():
     </style>
     </head>
     <body>
-    
-    
+
+
     <div class="divTex">
     <h2>Coronavirus Disease 2019 statistic</h2>
     <h5><a href="../main.html"> HOME</a></h5>
@@ -83,7 +83,7 @@ def htmlMaker():
     import os
 
     pngList = []
-    for root, dirs, files in os.walk('plots'):
+    for root, _, files in os.walk('plots'):
         for name in files:
             pngList.append(os.path.join(root, name))
 
@@ -101,9 +101,3 @@ def htmlMaker():
 
     with open('index.html', 'w+') as f:
         f.write(partOne + partTwo + partThree)
-    return True
-
-
-
-
-
