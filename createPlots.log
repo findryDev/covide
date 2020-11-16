@@ -3889,3 +3889,816 @@ INFO - 2020-11-16 04:20:07,221- create Yemen plot- plots
 INFO - 2020-11-16 04:20:08,801- create Zambia plot- plots
 INFO - 2020-11-16 04:20:10,695- create Zimbabwe plot- plots
 INFO - 2020-11-16 04:20:12,179- create Canada plot- plots
+INFO - 2020-11-16 13:47:10,410- create Afghanistan plot- plots
+INFO - 2020-11-16 13:47:12,120- create Albania plot- plots
+INFO - 2020-11-16 13:47:13,444- create Algeria plot- plots
+INFO - 2020-11-16 13:47:14,770- create Andorra plot- plots
+INFO - 2020-11-16 13:47:16,127- create Angola plot- plots
+INFO - 2020-11-16 13:47:17,910- create Antigua_and_Barbuda plot- plots
+INFO - 2020-11-16 13:47:19,311- create Argentina plot- plots
+INFO - 2020-11-16 13:47:20,846- create Armenia plot- plots
+INFO - 2020-11-16 13:47:22,537- create Australia - Australian Capital Territory plot- plots
+INFO - 2020-11-16 13:47:24,349- create Australia - New South Wales plot- plots
+INFO - 2020-11-16 13:47:25,830- create Australia - Northern Territory plot- plots
+INFO - 2020-11-16 13:47:27,297- create Australia - Queensland plot- plots
+INFO - 2020-11-16 13:47:28,487- create Australia - South Australia plot- plots
+INFO - 2020-11-16 13:47:30,073- create Australia - Tasmania plot- plots
+INFO - 2020-11-16 13:47:31,273- create Australia - Victoria plot- plots
+INFO - 2020-11-16 13:47:32,831- create Australia - Western Australia plot- plots
+INFO - 2020-11-16 13:47:34,089- create Austria plot- plots
+INFO - 2020-11-16 13:47:35,561- create Azerbaijan plot- plots
+INFO - 2020-11-16 13:47:37,404- create Bahamas plot- plots
+INFO - 2020-11-16 13:47:38,620- create Bahrain plot- plots
+INFO - 2020-11-16 13:47:39,978- create Bangladesh plot- plots
+INFO - 2020-11-16 13:47:40,970- create Barbados plot- plots
+INFO - 2020-11-16 13:47:42,423- create Belarus plot- plots
+INFO - 2020-11-16 13:47:43,415- create Belgium plot- plots
+INFO - 2020-11-16 13:47:44,418- create Belize plot- plots
+INFO - 2020-11-16 13:47:45,389- create Benin plot- plots
+INFO - 2020-11-16 13:47:46,634- create Bhutan plot- plots
+INFO - 2020-11-16 13:47:48,843- create Bolivia plot- plots
+INFO - 2020-11-16 13:47:49,968- create Bosnia_and_Herzegovina plot- plots
+INFO - 2020-11-16 13:47:50,954- create Botswana plot- plots
+INFO - 2020-11-16 13:47:52,374- create Brazil plot- plots
+INFO - 2020-11-16 13:47:53,494- create Brunei plot- plots
+INFO - 2020-11-16 13:47:54,782- create Bulgaria plot- plots
+INFO - 2020-11-16 13:47:55,861- create Burkina_Faso plot- plots
+INFO - 2020-11-16 13:47:57,171- create Burma plot- plots
+INFO - 2020-11-16 13:47:58,090- create Burundi plot- plots
+INFO - 2020-11-16 13:47:59,070- create Cabo_Verde plot- plots
+INFO - 2020-11-16 13:48:00,664- create Cambodia plot- plots
+INFO - 2020-11-16 13:48:01,581- create Cameroon plot- plots
+INFO - 2020-11-16 13:48:02,744- create Canada - Alberta plot- plots
+INFO - 2020-11-16 13:48:03,998- create Canada - British Columbia plot- plots
+INFO - 2020-11-16 13:48:05,050- create Canada - Diamond Princess plot- plots
+INFO - 2020-11-16 13:48:06,259- create Canada - Grand Princess plot- plots
+INFO - 2020-11-16 13:48:07,324- create Canada - Manitoba plot- plots
+INFO - 2020-11-16 13:48:08,183- create Canada - New Brunswick plot- plots
+INFO - 2020-11-16 13:48:09,067- create Canada - Newfoundland and Labrador plot- plots
+INFO - 2020-11-16 13:48:10,031- create Canada - Northwest Territories plot- plots
+INFO - 2020-11-16 13:48:11,243- create Canada - Nova Scotia plot- plots
+INFO - 2020-11-16 13:48:12,587- create Canada - Ontario plot- plots
+INFO - 2020-11-16 13:48:13,603- create Canada - Prince Edward Island plot- plots
+INFO - 2020-11-16 13:48:14,488- create Canada - Quebec plot- plots
+INFO - 2020-11-16 13:48:15,403- create Canada - Saskatchewan plot- plots
+INFO - 2020-11-16 13:48:16,623- create Canada - Yukon plot- plots
+INFO - 2020-11-16 13:48:18,529- create Central_African_Republic plot- plots
+INFO - 2020-11-16 13:48:19,539- create Chad plot- plots
+INFO - 2020-11-16 13:48:20,754- create Chile plot- plots
+INFO - 2020-11-16 13:48:22,168- create China - Anhui plot- plots
+INFO - 2020-11-16 13:48:23,323- create China - Beijing plot- plots
+INFO - 2020-11-16 13:48:24,296- create China - Chongqing plot- plots
+INFO - 2020-11-16 13:48:25,270- create China - Fujian plot- plots
+INFO - 2020-11-16 13:48:26,221- create China - Gansu plot- plots
+INFO - 2020-11-16 13:48:27,370- create China - Guangdong plot- plots
+INFO - 2020-11-16 13:48:28,282- create China - Guangxi plot- plots
+INFO - 2020-11-16 13:48:29,557- create China - Guizhou plot- plots
+INFO - 2020-11-16 13:48:30,586- create China - Hainan plot- plots
+INFO - 2020-11-16 13:48:31,526- create China - Hebei plot- plots
+INFO - 2020-11-16 13:48:32,667- create China - Heilongjiang plot- plots
+INFO - 2020-11-16 13:48:33,693- create China - Henan plot- plots
+INFO - 2020-11-16 13:48:35,221- create China - Hong Kong plot- plots
+INFO - 2020-11-16 13:48:36,171- create China - Hubei plot- plots
+INFO - 2020-11-16 13:48:37,483- create China - Hunan plot- plots
+INFO - 2020-11-16 13:48:38,566- create China - Inner Mongolia plot- plots
+INFO - 2020-11-16 13:48:39,522- create China - Jiangsu plot- plots
+INFO - 2020-11-16 13:48:41,154- create China - Jiangxi plot- plots
+INFO - 2020-11-16 13:48:42,840- create China - Jilin plot- plots
+INFO - 2020-11-16 13:48:44,035- create China - Liaoning plot- plots
+INFO - 2020-11-16 13:48:45,080- create China - Macau plot- plots
+INFO - 2020-11-16 13:48:46,405- create China - Ningxia plot- plots
+INFO - 2020-11-16 13:48:47,624- create China - Qinghai plot- plots
+INFO - 2020-11-16 13:48:48,584- create China - Shaanxi plot- plots
+INFO - 2020-11-16 13:48:49,554- create China - Shandong plot- plots
+INFO - 2020-11-16 13:48:50,516- create China - Shanghai plot- plots
+INFO - 2020-11-16 13:48:51,556- create China - Shanxi plot- plots
+INFO - 2020-11-16 13:48:53,017- create China - Sichuan plot- plots
+INFO - 2020-11-16 13:48:54,001- create China - Tianjin plot- plots
+INFO - 2020-11-16 13:48:54,943- create China - Tibet plot- plots
+INFO - 2020-11-16 13:48:55,972- create China - Xinjiang plot- plots
+INFO - 2020-11-16 13:48:56,941- create China - Yunnan plot- plots
+INFO - 2020-11-16 13:48:58,437- create China - Zhejiang plot- plots
+INFO - 2020-11-16 13:48:59,435- create Colombia plot- plots
+INFO - 2020-11-16 13:49:00,444- create Comoros plot- plots
+INFO - 2020-11-16 13:49:01,364- create Congo_(Brazzaville) plot- plots
+INFO - 2020-11-16 13:49:02,558- create Congo_(Kinshasa) plot- plots
+INFO - 2020-11-16 13:49:03,998- create Costa_Rica plot- plots
+INFO - 2020-11-16 13:49:05,019- create Cote_d'Ivoire plot- plots
+INFO - 2020-11-16 13:49:06,113- create Croatia plot- plots
+INFO - 2020-11-16 13:49:07,590- create Cuba plot- plots
+INFO - 2020-11-16 13:49:08,583- create Cyprus plot- plots
+INFO - 2020-11-16 13:49:10,074- create Czechia plot- plots
+INFO - 2020-11-16 13:49:11,063- create Denmark - Faroe Islands plot- plots
+INFO - 2020-11-16 13:49:12,304- create Denmark - Greenland plot- plots
+INFO - 2020-11-16 13:49:13,438- create Denmark plot- plots
+INFO - 2020-11-16 13:49:14,416- create Diamond_Princess plot- plots
+INFO - 2020-11-16 13:49:15,994- create Djibouti plot- plots
+INFO - 2020-11-16 13:49:17,401- create Dominica plot- plots
+INFO - 2020-11-16 13:49:18,808- create Dominican_Republic plot- plots
+INFO - 2020-11-16 13:49:19,755- create Ecuador plot- plots
+INFO - 2020-11-16 13:49:21,459- create Egypt plot- plots
+INFO - 2020-11-16 13:49:22,646- create El_Salvador plot- plots
+INFO - 2020-11-16 13:49:24,050- create Equatorial_Guinea plot- plots
+INFO - 2020-11-16 13:49:25,521- create Eritrea plot- plots
+INFO - 2020-11-16 13:49:26,818- create Estonia plot- plots
+INFO - 2020-11-16 13:49:28,361- create Eswatini plot- plots
+INFO - 2020-11-16 13:49:29,345- create Ethiopia plot- plots
+INFO - 2020-11-16 13:49:30,612- create Fiji plot- plots
+INFO - 2020-11-16 13:49:31,684- create Finland plot- plots
+INFO - 2020-11-16 13:49:33,307- create France - French Guiana plot- plots
+INFO - 2020-11-16 13:49:34,368- create France - French Polynesia plot- plots
+INFO - 2020-11-16 13:49:35,487- create France - Guadeloupe plot- plots
+INFO - 2020-11-16 13:49:36,560- create France - Martinique plot- plots
+INFO - 2020-11-16 13:49:37,859- create France - Mayotte plot- plots
+INFO - 2020-11-16 13:49:39,273- create France - New Caledonia plot- plots
+INFO - 2020-11-16 13:49:40,374- create France - Reunion plot- plots
+INFO - 2020-11-16 13:49:41,376- create France - Saint Barthelemy plot- plots
+INFO - 2020-11-16 13:49:42,729- create France - Saint Pierre and Miquelon plot- plots
+INFO - 2020-11-16 13:49:44,032- create France - St Martin plot- plots
+INFO - 2020-11-16 13:49:45,588- create France plot- plots
+INFO - 2020-11-16 13:49:47,060- create Gabon plot- plots
+INFO - 2020-11-16 13:49:48,268- create Gambia plot- plots
+INFO - 2020-11-16 13:49:49,479- create Georgia plot- plots
+INFO - 2020-11-16 13:49:50,871- create Germany plot- plots
+INFO - 2020-11-16 13:49:52,136- create Ghana plot- plots
+INFO - 2020-11-16 13:49:53,392- create Greece plot- plots
+INFO - 2020-11-16 13:49:54,408- create Grenada plot- plots
+INFO - 2020-11-16 13:49:55,425- create Guatemala plot- plots
+INFO - 2020-11-16 13:49:56,832- create Guinea plot- plots
+INFO - 2020-11-16 13:49:58,028- create Guinea-Bissau plot- plots
+INFO - 2020-11-16 13:49:59,174- create Guyana plot- plots
+INFO - 2020-11-16 13:50:00,204- create Haiti plot- plots
+INFO - 2020-11-16 13:50:01,182- create Holy_See plot- plots
+INFO - 2020-11-16 13:50:02,760- create Honduras plot- plots
+INFO - 2020-11-16 13:50:03,777- create Hungary plot- plots
+INFO - 2020-11-16 13:50:04,890- create Iceland plot- plots
+INFO - 2020-11-16 13:50:05,993- create India plot- plots
+INFO - 2020-11-16 13:50:07,263- create Indonesia plot- plots
+INFO - 2020-11-16 13:50:08,426- create Iran plot- plots
+INFO - 2020-11-16 13:50:09,423- create Iraq plot- plots
+INFO - 2020-11-16 13:50:10,390- create Ireland plot- plots
+INFO - 2020-11-16 13:50:11,528- create Israel plot- plots
+INFO - 2020-11-16 13:50:12,772- create Italy plot- plots
+INFO - 2020-11-16 13:50:13,782- create Jamaica plot- plots
+INFO - 2020-11-16 13:50:15,095- create Japan plot- plots
+INFO - 2020-11-16 13:50:16,206- create Jordan plot- plots
+INFO - 2020-11-16 13:50:17,649- create Kazakhstan plot- plots
+INFO - 2020-11-16 13:50:19,078- create Kenya plot- plots
+INFO - 2020-11-16 13:50:20,051- create Korea,_South plot- plots
+INFO - 2020-11-16 13:50:21,083- create Kosovo plot- plots
+INFO - 2020-11-16 13:50:22,950- create Kuwait plot- plots
+INFO - 2020-11-16 13:50:23,975- create Kyrgyzstan plot- plots
+INFO - 2020-11-16 13:50:25,264- create Laos plot- plots
+INFO - 2020-11-16 13:50:26,414- create Latvia plot- plots
+INFO - 2020-11-16 13:50:27,738- create Lebanon plot- plots
+INFO - 2020-11-16 13:50:29,108- create Lesotho plot- plots
+INFO - 2020-11-16 13:50:30,102- create Liberia plot- plots
+INFO - 2020-11-16 13:50:31,112- create Libya plot- plots
+INFO - 2020-11-16 13:50:32,408- create Liechtenstein plot- plots
+INFO - 2020-11-16 13:50:33,418- create Lithuania plot- plots
+INFO - 2020-11-16 13:50:34,415- create Luxembourg plot- plots
+INFO - 2020-11-16 13:50:35,350- create MS_Zaandam plot- plots
+INFO - 2020-11-16 13:50:36,403- create Madagascar plot- plots
+INFO - 2020-11-16 13:50:37,653- create Malawi plot- plots
+INFO - 2020-11-16 13:50:38,599- create Malaysia plot- plots
+INFO - 2020-11-16 13:50:39,710- create Maldives plot- plots
+INFO - 2020-11-16 13:50:41,082- create Mali plot- plots
+INFO - 2020-11-16 13:50:42,277- create Malta plot- plots
+INFO - 2020-11-16 13:50:43,328- create Marshall_Islands plot- plots
+INFO - 2020-11-16 13:50:44,400- create Mauritania plot- plots
+INFO - 2020-11-16 13:50:45,356- create Mauritius plot- plots
+INFO - 2020-11-16 13:50:46,397- create Mexico plot- plots
+INFO - 2020-11-16 13:50:47,659- create Moldova plot- plots
+INFO - 2020-11-16 13:50:48,699- create Monaco plot- plots
+INFO - 2020-11-16 13:50:50,130- create Mongolia plot- plots
+INFO - 2020-11-16 13:50:51,195- create Montenegro plot- plots
+INFO - 2020-11-16 13:50:52,274- create Morocco plot- plots
+INFO - 2020-11-16 13:50:53,455- create Mozambique plot- plots
+INFO - 2020-11-16 13:50:54,664- create Namibia plot- plots
+INFO - 2020-11-16 13:50:55,766- create Nepal plot- plots
+INFO - 2020-11-16 13:50:56,764- create Netherlands - Aruba plot- plots
+INFO - 2020-11-16 13:50:58,084- create Netherlands - Bonaire, Sint Eustatius and Saba plot- plots
+INFO - 2020-11-16 13:50:59,089- create Netherlands - Curacao plot- plots
+INFO - 2020-11-16 13:51:00,096- create Netherlands - Sint Maarten plot- plots
+INFO - 2020-11-16 13:51:01,205- create Netherlands plot- plots
+INFO - 2020-11-16 13:51:02,412- create New_Zealand plot- plots
+INFO - 2020-11-16 13:51:03,444- create Nicaragua plot- plots
+INFO - 2020-11-16 13:51:04,632- create Niger plot- plots
+INFO - 2020-11-16 13:51:07,100- create Nigeria plot- plots
+INFO - 2020-11-16 13:51:08,346- create North_Macedonia plot- plots
+INFO - 2020-11-16 13:51:09,370- create Norway plot- plots
+INFO - 2020-11-16 13:51:10,467- create Oman plot- plots
+INFO - 2020-11-16 13:51:11,558- create Pakistan plot- plots
+INFO - 2020-11-16 13:51:13,860- create Panama plot- plots
+INFO - 2020-11-16 13:51:15,454- create Papua_New_Guinea plot- plots
+INFO - 2020-11-16 13:51:16,917- create Paraguay plot- plots
+INFO - 2020-11-16 13:51:19,294- create Peru plot- plots
+INFO - 2020-11-16 13:51:21,032- create Philippines plot- plots
+INFO - 2020-11-16 13:51:22,536- create Poland plot- plots
+INFO - 2020-11-16 13:51:24,054- create Portugal plot- plots
+INFO - 2020-11-16 13:51:25,033- create Qatar plot- plots
+INFO - 2020-11-16 13:51:25,948- create Romania plot- plots
+INFO - 2020-11-16 13:51:26,937- create Russia plot- plots
+INFO - 2020-11-16 13:51:28,205- create Rwanda plot- plots
+INFO - 2020-11-16 13:51:29,239- create Saint_Kitts_and_Nevis plot- plots
+INFO - 2020-11-16 13:51:30,326- create Saint_Lucia plot- plots
+INFO - 2020-11-16 13:51:31,378- create Saint_Vincent_and_the_Grenadines plot- plots
+INFO - 2020-11-16 13:51:32,602- create San_Marino plot- plots
+INFO - 2020-11-16 13:51:33,787- create Sao_Tome_and_Principe plot- plots
+INFO - 2020-11-16 13:51:34,888- create Saudi_Arabia plot- plots
+INFO - 2020-11-16 13:51:36,134- create Senegal plot- plots
+INFO - 2020-11-16 13:51:37,350- create Serbia plot- plots
+INFO - 2020-11-16 13:51:38,524- create Seychelles plot- plots
+INFO - 2020-11-16 13:51:39,563- create Sierra_Leone plot- plots
+INFO - 2020-11-16 13:51:40,575- create Singapore plot- plots
+INFO - 2020-11-16 13:51:41,713- create Slovakia plot- plots
+INFO - 2020-11-16 13:51:42,965- create Slovenia plot- plots
+INFO - 2020-11-16 13:51:43,928- create Solomon_Islands plot- plots
+INFO - 2020-11-16 13:51:45,001- create Somalia plot- plots
+INFO - 2020-11-16 13:51:46,296- create South_Africa plot- plots
+INFO - 2020-11-16 13:51:47,577- create South_Sudan plot- plots
+INFO - 2020-11-16 13:51:48,820- create Spain plot- plots
+INFO - 2020-11-16 13:51:49,984- create Sri_Lanka plot- plots
+INFO - 2020-11-16 13:51:51,063- create Sudan plot- plots
+INFO - 2020-11-16 13:51:52,378- create Suriname plot- plots
+INFO - 2020-11-16 13:51:53,619- create Sweden plot- plots
+INFO - 2020-11-16 13:51:54,674- create Switzerland plot- plots
+INFO - 2020-11-16 13:51:55,847- create Syria plot- plots
+INFO - 2020-11-16 13:51:57,044- create Taiwan* plot- plots
+INFO - 2020-11-16 13:51:58,443- create Tajikistan plot- plots
+INFO - 2020-11-16 13:51:59,735- create Tanzania plot- plots
+INFO - 2020-11-16 13:52:01,273- create Thailand plot- plots
+INFO - 2020-11-16 13:52:02,880- create Timor-Leste plot- plots
+INFO - 2020-11-16 13:52:04,493- create Togo plot- plots
+INFO - 2020-11-16 13:52:06,677- create Trinidad_and_Tobago plot- plots
+INFO - 2020-11-16 13:52:08,075- create Tunisia plot- plots
+INFO - 2020-11-16 13:52:09,290- create Turkey plot- plots
+INFO - 2020-11-16 13:52:10,505- create US plot- plots
+INFO - 2020-11-16 13:52:12,150- create Uganda plot- plots
+INFO - 2020-11-16 13:52:13,480- create Ukraine plot- plots
+INFO - 2020-11-16 13:52:14,462- create United_Arab_Emirates plot- plots
+INFO - 2020-11-16 13:52:15,564- create United_Kingdom - Anguilla plot- plots
+INFO - 2020-11-16 13:52:16,641- create United_Kingdom - Bermuda plot- plots
+INFO - 2020-11-16 13:52:18,808- create United_Kingdom - British Virgin Islands plot- plots
+INFO - 2020-11-16 13:52:19,795- create United_Kingdom - Cayman Islands plot- plots
+INFO - 2020-11-16 13:52:20,841- create United_Kingdom - Channel Islands plot- plots
+INFO - 2020-11-16 13:52:21,808- create United_Kingdom - Falkland Islands (Malvinas) plot- plots
+INFO - 2020-11-16 13:52:23,014- create United_Kingdom - Gibraltar plot- plots
+INFO - 2020-11-16 13:52:24,310- create United_Kingdom - Isle of Man plot- plots
+INFO - 2020-11-16 13:52:25,311- create United_Kingdom - Montserrat plot- plots
+INFO - 2020-11-16 13:52:26,353- create United_Kingdom - Turks and Caicos Islands plot- plots
+INFO - 2020-11-16 13:52:27,742- create United_Kingdom plot- plots
+INFO - 2020-11-16 13:52:28,822- create Uruguay plot- plots
+INFO - 2020-11-16 13:52:30,317- create Uzbekistan plot- plots
+INFO - 2020-11-16 13:52:31,453- create Vanuatu plot- plots
+INFO - 2020-11-16 13:52:32,649- create Venezuela plot- plots
+INFO - 2020-11-16 13:52:33,627- create Vietnam plot- plots
+INFO - 2020-11-16 13:52:34,813- create West_Bank_and_Gaza plot- plots
+INFO - 2020-11-16 13:52:36,028- create Western_Sahara plot- plots
+INFO - 2020-11-16 13:52:37,058- create Yemen plot- plots
+INFO - 2020-11-16 13:52:38,504- create Zambia plot- plots
+INFO - 2020-11-16 13:52:39,490- create Zimbabwe plot- plots
+INFO - 2020-11-16 13:52:40,477- create world plot- plots
+INFO - 2020-11-16 13:52:41,968- create Canada plot- plots
+INFO - 2020-11-16 20:05:57,343- create Afghanistan plot- plots
+INFO - 2020-11-16 20:05:58,346- create Albania plot- plots
+INFO - 2020-11-16 20:05:59,359- create Algeria plot- plots
+INFO - 2020-11-16 20:06:00,918- create Andorra plot- plots
+INFO - 2020-11-16 20:06:02,252- create Angola plot- plots
+INFO - 2020-11-16 20:06:03,439- create Antigua_and_Barbuda plot- plots
+INFO - 2020-11-16 20:06:04,474- create Argentina plot- plots
+INFO - 2020-11-16 20:06:06,323- create Armenia plot- plots
+INFO - 2020-11-16 20:06:09,967- create Australia - Australian Capital Territory plot- plots
+INFO - 2020-11-16 20:06:12,206- create Australia - New South Wales plot- plots
+INFO - 2020-11-16 20:06:13,727- create Australia - Northern Territory plot- plots
+INFO - 2020-11-16 20:06:14,880- create Australia - Queensland plot- plots
+INFO - 2020-11-16 20:06:16,810- create Australia - South Australia plot- plots
+INFO - 2020-11-16 20:06:17,925- create Australia - Tasmania plot- plots
+INFO - 2020-11-16 20:06:19,779- create Australia - Victoria plot- plots
+INFO - 2020-11-16 20:06:22,680- create Australia - Western Australia plot- plots
+INFO - 2020-11-16 20:06:25,773- create Austria plot- plots
+INFO - 2020-11-16 20:06:28,692- create Azerbaijan plot- plots
+INFO - 2020-11-16 20:06:31,203- create Bahamas plot- plots
+INFO - 2020-11-16 20:06:33,106- create Bahrain plot- plots
+INFO - 2020-11-16 20:06:34,636- create Bangladesh plot- plots
+INFO - 2020-11-16 20:06:36,096- create Barbados plot- plots
+INFO - 2020-11-16 20:06:39,996- create Belarus plot- plots
+INFO - 2020-11-16 20:06:43,677- create Belgium plot- plots
+INFO - 2020-11-16 20:06:47,738- create Belize plot- plots
+INFO - 2020-11-16 20:06:50,680- create Benin plot- plots
+INFO - 2020-11-16 20:06:53,426- create Bhutan plot- plots
+INFO - 2020-11-16 20:06:55,570- create Bolivia plot- plots
+INFO - 2020-11-16 20:06:58,371- create Bosnia_and_Herzegovina plot- plots
+INFO - 2020-11-16 20:07:01,308- create Botswana plot- plots
+INFO - 2020-11-16 20:07:04,648- create Brazil plot- plots
+INFO - 2020-11-16 20:07:06,651- create Brunei plot- plots
+INFO - 2020-11-16 20:07:07,873- create Bulgaria plot- plots
+INFO - 2020-11-16 20:07:10,545- create Burkina_Faso plot- plots
+INFO - 2020-11-16 20:07:13,691- create Burma plot- plots
+INFO - 2020-11-16 20:07:16,133- create Burundi plot- plots
+INFO - 2020-11-16 20:07:19,183- create Cabo_Verde plot- plots
+INFO - 2020-11-16 20:07:21,731- create Cambodia plot- plots
+INFO - 2020-11-16 20:07:24,563- create Cameroon plot- plots
+INFO - 2020-11-16 20:07:27,873- create Canada - Alberta plot- plots
+INFO - 2020-11-16 20:07:31,036- create Canada - British Columbia plot- plots
+INFO - 2020-11-16 20:07:34,209- create Canada - Diamond Princess plot- plots
+INFO - 2020-11-16 20:07:37,592- create Canada - Grand Princess plot- plots
+INFO - 2020-11-16 20:07:39,881- create Canada - Manitoba plot- plots
+INFO - 2020-11-16 20:07:42,190- create Canada - New Brunswick plot- plots
+INFO - 2020-11-16 20:07:44,396- create Canada - Newfoundland and Labrador plot- plots
+INFO - 2020-11-16 20:07:47,400- create Canada - Northwest Territories plot- plots
+INFO - 2020-11-16 20:07:50,033- create Canada - Nova Scotia plot- plots
+INFO - 2020-11-16 20:07:52,785- create Canada - Ontario plot- plots
+INFO - 2020-11-16 20:07:54,502- create Canada - Prince Edward Island plot- plots
+INFO - 2020-11-16 20:07:56,162- create Canada - Quebec plot- plots
+INFO - 2020-11-16 20:07:58,864- create Canada - Saskatchewan plot- plots
+INFO - 2020-11-16 20:08:01,973- create Canada - Yukon plot- plots
+INFO - 2020-11-16 20:08:05,517- create Central_African_Republic plot- plots
+INFO - 2020-11-16 20:08:08,923- create Chad plot- plots
+INFO - 2020-11-16 20:08:10,910- create Chile plot- plots
+INFO - 2020-11-16 20:08:12,683- create China - Anhui plot- plots
+INFO - 2020-11-16 20:08:15,424- create China - Beijing plot- plots
+INFO - 2020-11-16 20:08:17,452- create China - Chongqing plot- plots
+INFO - 2020-11-16 20:08:18,945- create China - Fujian plot- plots
+INFO - 2020-11-16 20:08:20,858- create China - Gansu plot- plots
+INFO - 2020-11-16 20:08:22,866- create China - Guangdong plot- plots
+INFO - 2020-11-16 20:08:25,162- create China - Guangxi plot- plots
+INFO - 2020-11-16 20:08:27,029- create China - Guizhou plot- plots
+INFO - 2020-11-16 20:08:28,932- create China - Hainan plot- plots
+INFO - 2020-11-16 20:08:32,348- create China - Hebei plot- plots
+INFO - 2020-11-16 20:08:36,256- create China - Heilongjiang plot- plots
+INFO - 2020-11-16 20:08:39,351- create China - Henan plot- plots
+INFO - 2020-11-16 20:08:41,177- create China - Hong Kong plot- plots
+INFO - 2020-11-16 20:08:42,774- create China - Hubei plot- plots
+INFO - 2020-11-16 20:08:43,924- create China - Hunan plot- plots
+INFO - 2020-11-16 20:08:46,105- create China - Inner Mongolia plot- plots
+INFO - 2020-11-16 20:08:49,189- create China - Jiangsu plot- plots
+INFO - 2020-11-16 20:08:52,672- create China - Jiangxi plot- plots
+INFO - 2020-11-16 20:08:55,414- create China - Jilin plot- plots
+INFO - 2020-11-16 20:08:57,953- create China - Liaoning plot- plots
+INFO - 2020-11-16 20:09:00,508- create China - Macau plot- plots
+INFO - 2020-11-16 20:09:04,439- create China - Ningxia plot- plots
+INFO - 2020-11-16 20:09:07,499- create China - Qinghai plot- plots
+INFO - 2020-11-16 20:09:10,337- create China - Shaanxi plot- plots
+INFO - 2020-11-16 20:09:12,003- create China - Shandong plot- plots
+INFO - 2020-11-16 20:09:13,594- create China - Shanghai plot- plots
+INFO - 2020-11-16 20:09:14,921- create China - Shanxi plot- plots
+INFO - 2020-11-16 20:09:16,139- create China - Sichuan plot- plots
+INFO - 2020-11-16 20:09:18,251- create China - Tianjin plot- plots
+INFO - 2020-11-16 20:09:20,288- create China - Tibet plot- plots
+INFO - 2020-11-16 20:09:22,187- create China - Xinjiang plot- plots
+INFO - 2020-11-16 20:09:23,706- create China - Yunnan plot- plots
+INFO - 2020-11-16 20:09:25,588- create China - Zhejiang plot- plots
+INFO - 2020-11-16 20:09:27,342- create Colombia plot- plots
+INFO - 2020-11-16 20:09:29,147- create Comoros plot- plots
+INFO - 2020-11-16 20:09:30,420- create Congo_(Brazzaville) plot- plots
+INFO - 2020-11-16 20:09:32,025- create Congo_(Kinshasa) plot- plots
+INFO - 2020-11-16 20:09:35,238- create Costa_Rica plot- plots
+INFO - 2020-11-16 20:09:39,359- create Cote_d'Ivoire plot- plots
+INFO - 2020-11-16 20:09:41,445- create Croatia plot- plots
+INFO - 2020-11-16 20:09:43,390- create Cuba plot- plots
+INFO - 2020-11-16 20:09:44,716- create Cyprus plot- plots
+INFO - 2020-11-16 20:09:45,750- create Czechia plot- plots
+INFO - 2020-11-16 20:09:47,197- create Denmark - Faroe Islands plot- plots
+INFO - 2020-11-16 20:09:48,100- create Denmark - Greenland plot- plots
+INFO - 2020-11-16 20:09:49,918- create Denmark plot- plots
+INFO - 2020-11-16 20:09:52,988- create Diamond_Princess plot- plots
+INFO - 2020-11-16 20:09:55,891- create Djibouti plot- plots
+INFO - 2020-11-16 20:09:57,599- create Dominica plot- plots
+INFO - 2020-11-16 20:09:59,235- create Dominican_Republic plot- plots
+INFO - 2020-11-16 20:10:00,149- create Ecuador plot- plots
+INFO - 2020-11-16 20:10:01,462- create Egypt plot- plots
+INFO - 2020-11-16 20:10:02,564- create El_Salvador plot- plots
+INFO - 2020-11-16 20:10:03,507- create Equatorial_Guinea plot- plots
+INFO - 2020-11-16 20:10:04,444- create Eritrea plot- plots
+INFO - 2020-11-16 20:10:06,932- create Estonia plot- plots
+INFO - 2020-11-16 20:10:10,702- create Eswatini plot- plots
+INFO - 2020-11-16 20:10:12,815- create Ethiopia plot- plots
+INFO - 2020-11-16 20:10:13,961- create Fiji plot- plots
+INFO - 2020-11-16 20:10:15,010- create Finland plot- plots
+INFO - 2020-11-16 20:10:16,393- create France - French Guiana plot- plots
+INFO - 2020-11-16 20:10:17,560- create France - French Polynesia plot- plots
+INFO - 2020-11-16 20:10:18,623- create France - Guadeloupe plot- plots
+INFO - 2020-11-16 20:10:19,578- create France - Martinique plot- plots
+INFO - 2020-11-16 20:10:20,505- create France - Mayotte plot- plots
+INFO - 2020-11-16 20:10:22,341- create France - New Caledonia plot- plots
+INFO - 2020-11-16 20:10:23,306- create France - Reunion plot- plots
+INFO - 2020-11-16 20:10:24,573- create France - Saint Barthelemy plot- plots
+INFO - 2020-11-16 20:10:26,113- create France - Saint Pierre and Miquelon plot- plots
+INFO - 2020-11-16 20:10:27,773- create France - St Martin plot- plots
+INFO - 2020-11-16 20:10:30,087- create France plot- plots
+INFO - 2020-11-16 20:10:31,257- create Gabon plot- plots
+INFO - 2020-11-16 20:10:32,482- create Gambia plot- plots
+INFO - 2020-11-16 20:10:33,530- create Georgia plot- plots
+INFO - 2020-11-16 20:10:34,831- create Germany plot- plots
+INFO - 2020-11-16 20:10:36,016- create Ghana plot- plots
+INFO - 2020-11-16 20:10:38,956- create Greece plot- plots
+INFO - 2020-11-16 20:10:41,624- create Grenada plot- plots
+INFO - 2020-11-16 20:10:44,679- create Guatemala plot- plots
+INFO - 2020-11-16 20:10:47,285- create Guinea plot- plots
+INFO - 2020-11-16 20:10:49,952- create Guinea-Bissau plot- plots
+INFO - 2020-11-16 20:10:51,176- create Guyana plot- plots
+INFO - 2020-11-16 20:10:52,521- create Haiti plot- plots
+INFO - 2020-11-16 20:10:54,255- create Holy_See plot- plots
+INFO - 2020-11-16 20:10:57,280- create Honduras plot- plots
+INFO - 2020-11-16 20:10:59,227- create Hungary plot- plots
+INFO - 2020-11-16 20:11:01,415- create Iceland plot- plots
+INFO - 2020-11-16 20:11:02,965- create India plot- plots
+INFO - 2020-11-16 20:11:05,169- create Indonesia plot- plots
+INFO - 2020-11-16 20:11:06,317- create Iran plot- plots
+INFO - 2020-11-16 20:11:08,181- create Iraq plot- plots
+INFO - 2020-11-16 20:11:11,493- create Ireland plot- plots
+INFO - 2020-11-16 20:11:14,295- create Israel plot- plots
+INFO - 2020-11-16 20:11:16,835- create Italy plot- plots
+INFO - 2020-11-16 20:11:19,219- create Jamaica plot- plots
+INFO - 2020-11-16 20:11:21,723- create Japan plot- plots
+INFO - 2020-11-16 20:11:23,504- create Jordan plot- plots
+INFO - 2020-11-16 20:11:25,858- create Kazakhstan plot- plots
+INFO - 2020-11-16 20:11:29,593- create Kenya plot- plots
+INFO - 2020-11-16 20:11:32,555- create Korea,_South plot- plots
+INFO - 2020-11-16 20:11:35,529- create Kosovo plot- plots
+INFO - 2020-11-16 20:11:37,804- create Kuwait plot- plots
+INFO - 2020-11-16 20:11:38,956- create Kyrgyzstan plot- plots
+INFO - 2020-11-16 20:11:39,894- create Laos plot- plots
+INFO - 2020-11-16 20:11:41,221- create Latvia plot- plots
+INFO - 2020-11-16 20:11:42,878- create Lebanon plot- plots
+INFO - 2020-11-16 20:11:44,205- create Lesotho plot- plots
+INFO - 2020-11-16 20:11:45,271- create Liberia plot- plots
+INFO - 2020-11-16 20:11:46,384- create Libya plot- plots
+INFO - 2020-11-16 20:11:47,795- create Liechtenstein plot- plots
+INFO - 2020-11-16 20:11:49,711- create Lithuania plot- plots
+INFO - 2020-11-16 20:11:50,804- create Luxembourg plot- plots
+INFO - 2020-11-16 20:11:51,799- create MS_Zaandam plot- plots
+INFO - 2020-11-16 20:11:52,940- create Madagascar plot- plots
+INFO - 2020-11-16 20:11:53,878- create Malawi plot- plots
+INFO - 2020-11-16 20:11:54,813- create Malaysia plot- plots
+INFO - 2020-11-16 20:11:55,771- create Maldives plot- plots
+INFO - 2020-11-16 20:11:57,313- create Mali plot- plots
+INFO - 2020-11-16 20:11:58,459- create Malta plot- plots
+INFO - 2020-11-16 20:11:59,562- create Marshall_Islands plot- plots
+INFO - 2020-11-16 20:12:00,735- create Mauritania plot- plots
+INFO - 2020-11-16 20:12:02,033- create Mauritius plot- plots
+INFO - 2020-11-16 20:12:03,074- create Mexico plot- plots
+INFO - 2020-11-16 20:12:04,722- create Moldova plot- plots
+INFO - 2020-11-16 20:12:07,697- create Monaco plot- plots
+INFO - 2020-11-16 20:12:09,836- create Mongolia plot- plots
+INFO - 2020-11-16 20:12:10,825- create Montenegro plot- plots
+INFO - 2020-11-16 20:12:11,867- create Morocco plot- plots
+INFO - 2020-11-16 20:12:14,306- create Mozambique plot- plots
+INFO - 2020-11-16 20:12:15,482- create Namibia plot- plots
+INFO - 2020-11-16 20:12:16,777- create Nepal plot- plots
+INFO - 2020-11-16 20:12:18,063- create Netherlands - Aruba plot- plots
+INFO - 2020-11-16 20:12:19,065- create Netherlands - Bonaire, Sint Eustatius and Saba plot- plots
+INFO - 2020-11-16 20:12:20,066- create Netherlands - Curacao plot- plots
+INFO - 2020-11-16 20:12:21,189- create Netherlands - Sint Maarten plot- plots
+INFO - 2020-11-16 20:12:22,338- create Netherlands plot- plots
+INFO - 2020-11-16 20:12:23,456- create New_Zealand plot- plots
+INFO - 2020-11-16 20:12:24,630- create Nicaragua plot- plots
+INFO - 2020-11-16 20:12:25,578- create Niger plot- plots
+INFO - 2020-11-16 20:12:26,582- create Nigeria plot- plots
+INFO - 2020-11-16 20:12:27,730- create North_Macedonia plot- plots
+INFO - 2020-11-16 20:12:29,232- create Norway plot- plots
+INFO - 2020-11-16 20:12:33,772- create Oman plot- plots
+INFO - 2020-11-16 20:12:38,132- create Pakistan plot- plots
+INFO - 2020-11-16 20:12:40,995- create Panama plot- plots
+INFO - 2020-11-16 20:12:42,788- create Papua_New_Guinea plot- plots
+INFO - 2020-11-16 20:12:44,639- create Paraguay plot- plots
+INFO - 2020-11-16 20:12:46,184- create Peru plot- plots
+INFO - 2020-11-16 20:12:48,696- create Philippines plot- plots
+INFO - 2020-11-16 20:12:51,067- create Poland plot- plots
+INFO - 2020-11-16 20:12:53,225- create Portugal plot- plots
+INFO - 2020-11-16 20:12:54,738- create Qatar plot- plots
+INFO - 2020-11-16 20:12:55,669- create Romania plot- plots
+INFO - 2020-11-16 20:12:56,584- create Russia plot- plots
+INFO - 2020-11-16 20:12:57,743- create Rwanda plot- plots
+INFO - 2020-11-16 20:12:59,469- create Saint_Kitts_and_Nevis plot- plots
+INFO - 2020-11-16 20:13:01,514- create Saint_Lucia plot- plots
+INFO - 2020-11-16 20:13:03,001- create Saint_Vincent_and_the_Grenadines plot- plots
+INFO - 2020-11-16 20:13:05,994- create San_Marino plot- plots
+INFO - 2020-11-16 20:13:08,585- create Sao_Tome_and_Principe plot- plots
+INFO - 2020-11-16 20:13:10,258- create Saudi_Arabia plot- plots
+INFO - 2020-11-16 20:13:11,337- create Senegal plot- plots
+INFO - 2020-11-16 20:13:12,447- create Serbia plot- plots
+INFO - 2020-11-16 20:13:15,247- create Seychelles plot- plots
+INFO - 2020-11-16 20:13:17,570- create Sierra_Leone plot- plots
+INFO - 2020-11-16 20:13:18,934- create Singapore plot- plots
+INFO - 2020-11-16 20:13:19,861- create Slovakia plot- plots
+INFO - 2020-11-16 20:13:20,923- create Slovenia plot- plots
+INFO - 2020-11-16 20:13:22,190- create Solomon_Islands plot- plots
+INFO - 2020-11-16 20:13:23,219- create Somalia plot- plots
+INFO - 2020-11-16 20:13:24,264- create South_Africa plot- plots
+INFO - 2020-11-16 20:13:25,146- create South_Sudan plot- plots
+INFO - 2020-11-16 20:13:26,164- create Spain plot- plots
+INFO - 2020-11-16 20:13:27,319- create Sri_Lanka plot- plots
+INFO - 2020-11-16 20:13:28,251- create Sudan plot- plots
+INFO - 2020-11-16 20:13:30,430- create Suriname plot- plots
+INFO - 2020-11-16 20:13:32,438- create Sweden plot- plots
+INFO - 2020-11-16 20:13:34,763- create Switzerland plot- plots
+INFO - 2020-11-16 20:13:36,962- create Syria plot- plots
+INFO - 2020-11-16 20:13:38,912- create Taiwan* plot- plots
+INFO - 2020-11-16 20:13:39,893- create Tajikistan plot- plots
+INFO - 2020-11-16 20:13:40,879- create Tanzania plot- plots
+INFO - 2020-11-16 20:13:41,841- create Thailand plot- plots
+INFO - 2020-11-16 20:13:43,245- create Timor-Leste plot- plots
+INFO - 2020-11-16 20:13:45,006- create Togo plot- plots
+INFO - 2020-11-16 20:13:46,121- create Trinidad_and_Tobago plot- plots
+INFO - 2020-11-16 20:13:47,589- create Tunisia plot- plots
+INFO - 2020-11-16 20:13:50,056- create Turkey plot- plots
+INFO - 2020-11-16 20:13:51,472- create US plot- plots
+INFO - 2020-11-16 20:13:52,711- create Uganda plot- plots
+INFO - 2020-11-16 20:13:53,640- create Ukraine plot- plots
+INFO - 2020-11-16 20:13:54,568- create United_Arab_Emirates plot- plots
+INFO - 2020-11-16 20:13:55,595- create United_Kingdom - Anguilla plot- plots
+INFO - 2020-11-16 20:13:56,784- create United_Kingdom - Bermuda plot- plots
+INFO - 2020-11-16 20:13:58,652- create United_Kingdom - British Virgin Islands plot- plots
+INFO - 2020-11-16 20:13:59,834- create United_Kingdom - Cayman Islands plot- plots
+INFO - 2020-11-16 20:14:00,927- create United_Kingdom - Channel Islands plot- plots
+INFO - 2020-11-16 20:14:02,987- create United_Kingdom - Falkland Islands (Malvinas) plot- plots
+INFO - 2020-11-16 20:14:04,931- create United_Kingdom - Gibraltar plot- plots
+INFO - 2020-11-16 20:14:06,642- create United_Kingdom - Isle of Man plot- plots
+INFO - 2020-11-16 20:14:08,914- create United_Kingdom - Montserrat plot- plots
+INFO - 2020-11-16 20:14:10,260- create United_Kingdom - Turks and Caicos Islands plot- plots
+INFO - 2020-11-16 20:14:11,188- create United_Kingdom plot- plots
+INFO - 2020-11-16 20:14:12,271- create Uruguay plot- plots
+INFO - 2020-11-16 20:14:13,250- create Uzbekistan plot- plots
+INFO - 2020-11-16 20:14:15,455- create Vanuatu plot- plots
+INFO - 2020-11-16 20:14:16,759- create Venezuela plot- plots
+INFO - 2020-11-16 20:14:18,324- create Vietnam plot- plots
+INFO - 2020-11-16 20:14:19,381- create West_Bank_and_Gaza plot- plots
+INFO - 2020-11-16 20:14:20,850- create Western_Sahara plot- plots
+INFO - 2020-11-16 20:14:22,046- create Yemen plot- plots
+INFO - 2020-11-16 20:14:23,133- create Zambia plot- plots
+INFO - 2020-11-16 20:14:24,220- create Zimbabwe plot- plots
+INFO - 2020-11-16 20:14:25,218- create World plot- plots
+INFO - 2020-11-16 20:14:26,042- create Canada plot- plots
+INFO - 2020-11-16 20:15:40,888- create Afghanistan plot- plots
+INFO - 2020-11-16 20:15:42,482- create Albania plot- plots
+INFO - 2020-11-16 20:15:43,747- create Algeria plot- plots
+INFO - 2020-11-16 20:15:44,891- create Andorra plot- plots
+INFO - 2020-11-16 20:15:46,241- create Angola plot- plots
+INFO - 2020-11-16 20:15:48,590- create Antigua_and_Barbuda plot- plots
+INFO - 2020-11-16 20:15:51,110- create Argentina plot- plots
+INFO - 2020-11-16 20:15:52,883- create Armenia plot- plots
+INFO - 2020-11-16 20:15:54,015- create Australia - Australian Capital Territory plot- plots
+INFO - 2020-11-16 20:15:55,024- create Australia - New South Wales plot- plots
+INFO - 2020-11-16 20:15:56,058- create Australia - Northern Territory plot- plots
+INFO - 2020-11-16 20:15:57,696- create Australia - Queensland plot- plots
+INFO - 2020-11-16 20:15:58,703- create Australia - South Australia plot- plots
+INFO - 2020-11-16 20:15:59,824- create Australia - Tasmania plot- plots
+INFO - 2020-11-16 20:16:00,945- create Australia - Victoria plot- plots
+INFO - 2020-11-16 20:16:02,463- create Australia - Western Australia plot- plots
+INFO - 2020-11-16 20:16:03,498- create Austria plot- plots
+INFO - 2020-11-16 20:16:06,116- create Azerbaijan plot- plots
+INFO - 2020-11-16 20:16:08,559- create Bahamas plot- plots
+INFO - 2020-11-16 20:16:10,523- create Bahrain plot- plots
+INFO - 2020-11-16 20:16:11,534- create Bangladesh plot- plots
+INFO - 2020-11-16 20:16:12,872- create Barbados plot- plots
+INFO - 2020-11-16 20:16:14,019- create Belarus plot- plots
+INFO - 2020-11-16 20:16:14,983- create Belgium plot- plots
+INFO - 2020-11-16 20:16:16,012- create Belize plot- plots
+INFO - 2020-11-16 20:16:17,872- create Benin plot- plots
+INFO - 2020-11-16 20:16:20,612- create Bhutan plot- plots
+INFO - 2020-11-16 20:16:22,145- create Bolivia plot- plots
+INFO - 2020-11-16 20:16:23,765- create Bosnia_and_Herzegovina plot- plots
+INFO - 2020-11-16 20:16:25,050- create Botswana plot- plots
+INFO - 2020-11-16 20:16:26,464- create Brazil plot- plots
+INFO - 2020-11-16 20:16:27,636- create Brunei plot- plots
+INFO - 2020-11-16 20:16:28,704- create Bulgaria plot- plots
+INFO - 2020-11-16 20:16:29,988- create Burkina_Faso plot- plots
+INFO - 2020-11-16 20:16:31,181- create Burma plot- plots
+INFO - 2020-11-16 20:16:33,513- create Burundi plot- plots
+INFO - 2020-11-16 20:16:36,568- create Cabo_Verde plot- plots
+INFO - 2020-11-16 20:16:38,875- create Cambodia plot- plots
+INFO - 2020-11-16 20:16:40,571- create Cameroon plot- plots
+INFO - 2020-11-16 20:16:41,936- create Canada - Alberta plot- plots
+INFO - 2020-11-16 20:16:43,456- create Canada - British Columbia plot- plots
+INFO - 2020-11-16 20:16:44,681- create Canada - Diamond Princess plot- plots
+INFO - 2020-11-16 20:16:45,613- create Canada - Grand Princess plot- plots
+INFO - 2020-11-16 20:16:46,537- create Canada - Manitoba plot- plots
+INFO - 2020-11-16 20:16:48,211- create Canada - New Brunswick plot- plots
+INFO - 2020-11-16 20:16:50,634- create Canada - Newfoundland and Labrador plot- plots
+INFO - 2020-11-16 20:16:51,857- create Canada - Northwest Territories plot- plots
+INFO - 2020-11-16 20:16:53,370- create Canada - Nova Scotia plot- plots
+INFO - 2020-11-16 20:16:54,335- create Canada - Ontario plot- plots
+INFO - 2020-11-16 20:16:55,332- create Canada - Prince Edward Island plot- plots
+INFO - 2020-11-16 20:16:56,286- create Canada - Quebec plot- plots
+INFO - 2020-11-16 20:16:57,426- create Canada - Saskatchewan plot- plots
+INFO - 2020-11-16 20:16:58,828- create Canada - Yukon plot- plots
+INFO - 2020-11-16 20:17:00,120- create Central_African_Republic plot- plots
+INFO - 2020-11-16 20:17:01,243- create Chad plot- plots
+INFO - 2020-11-16 20:17:02,851- create Chile plot- plots
+INFO - 2020-11-16 20:17:04,905- create China - Anhui plot- plots
+INFO - 2020-11-16 20:17:08,351- create China - Beijing plot- plots
+INFO - 2020-11-16 20:17:12,159- create China - Chongqing plot- plots
+INFO - 2020-11-16 20:17:14,622- create China - Fujian plot- plots
+INFO - 2020-11-16 20:17:16,048- create China - Gansu plot- plots
+INFO - 2020-11-16 20:17:17,000- create China - Guangdong plot- plots
+INFO - 2020-11-16 20:17:18,235- create China - Guangxi plot- plots
+INFO - 2020-11-16 20:17:19,969- create China - Guizhou plot- plots
+INFO - 2020-11-16 20:17:21,070- create China - Hainan plot- plots
+INFO - 2020-11-16 20:17:22,079- create China - Hebei plot- plots
+INFO - 2020-11-16 20:17:23,768- create China - Heilongjiang plot- plots
+INFO - 2020-11-16 20:17:25,228- create China - Henan plot- plots
+INFO - 2020-11-16 20:17:26,511- create China - Hong Kong plot- plots
+INFO - 2020-11-16 20:17:28,560- create China - Hubei plot- plots
+INFO - 2020-11-16 20:17:30,658- create China - Hunan plot- plots
+INFO - 2020-11-16 20:17:32,042- create China - Inner Mongolia plot- plots
+INFO - 2020-11-16 20:17:33,600- create China - Jiangsu plot- plots
+INFO - 2020-11-16 20:17:36,093- create China - Jiangxi plot- plots
+INFO - 2020-11-16 20:17:39,308- create China - Jilin plot- plots
+INFO - 2020-11-16 20:17:41,128- create China - Liaoning plot- plots
+INFO - 2020-11-16 20:17:42,471- create China - Macau plot- plots
+INFO - 2020-11-16 20:17:44,311- create China - Ningxia plot- plots
+INFO - 2020-11-16 20:17:45,800- create China - Qinghai plot- plots
+INFO - 2020-11-16 20:17:47,726- create China - Shaanxi plot- plots
+INFO - 2020-11-16 20:17:49,235- create China - Shandong plot- plots
+INFO - 2020-11-16 20:17:50,317- create China - Shanghai plot- plots
+INFO - 2020-11-16 20:17:53,421- create China - Shanxi plot- plots
+INFO - 2020-11-16 20:17:55,718- create China - Sichuan plot- plots
+INFO - 2020-11-16 20:17:57,365- create China - Tianjin plot- plots
+INFO - 2020-11-16 20:17:59,106- create China - Tibet plot- plots
+INFO - 2020-11-16 20:18:00,999- create China - Xinjiang plot- plots
+INFO - 2020-11-16 20:18:03,102- create China - Yunnan plot- plots
+INFO - 2020-11-16 20:18:05,136- create China - Zhejiang plot- plots
+INFO - 2020-11-16 20:18:09,519- create Colombia plot- plots
+INFO - 2020-11-16 20:18:12,608- create Comoros plot- plots
+INFO - 2020-11-16 20:18:14,928- create Congo_(Brazzaville) plot- plots
+INFO - 2020-11-16 20:18:16,654- create Congo_(Kinshasa) plot- plots
+INFO - 2020-11-16 20:18:18,066- create Costa_Rica plot- plots
+INFO - 2020-11-16 20:18:19,260- create Cote_d'Ivoire plot- plots
+INFO - 2020-11-16 20:18:20,408- create Croatia plot- plots
+INFO - 2020-11-16 20:18:22,079- create Cuba plot- plots
+INFO - 2020-11-16 20:18:23,374- create Cyprus plot- plots
+INFO - 2020-11-16 20:18:24,437- create Czechia plot- plots
+INFO - 2020-11-16 20:18:25,578- create Denmark - Faroe Islands plot- plots
+INFO - 2020-11-16 20:18:26,771- create Denmark - Greenland plot- plots
+INFO - 2020-11-16 20:18:29,026- create Denmark plot- plots
+INFO - 2020-11-16 20:18:30,833- create Diamond_Princess plot- plots
+INFO - 2020-11-16 20:18:32,115- create Djibouti plot- plots
+INFO - 2020-11-16 20:18:33,726- create Dominica plot- plots
+INFO - 2020-11-16 20:18:34,758- create Dominican_Republic plot- plots
+INFO - 2020-11-16 20:18:35,864- create Ecuador plot- plots
+INFO - 2020-11-16 20:18:38,580- create Egypt plot- plots
+INFO - 2020-11-16 20:18:41,851- create El_Salvador plot- plots
+INFO - 2020-11-16 20:18:44,020- create Equatorial_Guinea plot- plots
+INFO - 2020-11-16 20:18:45,438- create Eritrea plot- plots
+INFO - 2020-11-16 20:18:47,028- create Estonia plot- plots
+INFO - 2020-11-16 20:18:49,234- create Eswatini plot- plots
+INFO - 2020-11-16 20:18:51,793- create Ethiopia plot- plots
+INFO - 2020-11-16 20:18:54,992- create Fiji plot- plots
+INFO - 2020-11-16 20:18:57,189- create Finland plot- plots
+INFO - 2020-11-16 20:18:59,247- create France - French Guiana plot- plots
+INFO - 2020-11-16 20:19:01,580- create France - French Polynesia plot- plots
+INFO - 2020-11-16 20:19:04,031- create France - Guadeloupe plot- plots
+INFO - 2020-11-16 20:19:05,829- create France - Martinique plot- plots
+INFO - 2020-11-16 20:19:07,651- create France - Mayotte plot- plots
+INFO - 2020-11-16 20:19:10,808- create France - New Caledonia plot- plots
+INFO - 2020-11-16 20:19:16,168- create France - Reunion plot- plots
+INFO - 2020-11-16 20:19:19,490- create France - Saint Barthelemy plot- plots
+INFO - 2020-11-16 20:19:22,637- create France - Saint Pierre and Miquelon plot- plots
+INFO - 2020-11-16 20:19:25,370- create France - St Martin plot- plots
+INFO - 2020-11-16 20:19:29,178- create France plot- plots
+INFO - 2020-11-16 20:19:33,498- create Gabon plot- plots
+INFO - 2020-11-16 20:19:38,002- create Gambia plot- plots
+INFO - 2020-11-16 20:19:41,346- create Georgia plot- plots
+INFO - 2020-11-16 20:19:45,057- create Germany plot- plots
+INFO - 2020-11-16 20:19:48,958- create Ghana plot- plots
+INFO - 2020-11-16 20:19:52,170- create Greece plot- plots
+INFO - 2020-11-16 20:19:54,816- create Grenada plot- plots
+INFO - 2020-11-16 20:19:57,481- create Guatemala plot- plots
+INFO - 2020-11-16 20:20:00,028- create Guinea plot- plots
+INFO - 2020-11-16 20:20:02,124- create Guinea-Bissau plot- plots
+INFO - 2020-11-16 20:20:04,749- create Guyana plot- plots
+INFO - 2020-11-16 20:20:06,979- create Haiti plot- plots
+INFO - 2020-11-16 20:20:08,799- create Holy_See plot- plots
+INFO - 2020-11-16 20:20:11,340- create Honduras plot- plots
+INFO - 2020-11-16 20:20:13,268- create Hungary plot- plots
+INFO - 2020-11-16 20:20:15,578- create Iceland plot- plots
+INFO - 2020-11-16 20:20:17,611- create India plot- plots
+INFO - 2020-11-16 20:20:19,313- create Indonesia plot- plots
+INFO - 2020-11-16 20:20:20,618- create Iran plot- plots
+INFO - 2020-11-16 20:20:21,638- create Iraq plot- plots
+INFO - 2020-11-16 20:20:22,671- create Ireland plot- plots
+INFO - 2020-11-16 20:20:24,038- create Israel plot- plots
+INFO - 2020-11-16 20:20:25,372- create Italy plot- plots
+INFO - 2020-11-16 20:20:26,644- create Jamaica plot- plots
+INFO - 2020-11-16 20:20:28,664- create Japan plot- plots
+INFO - 2020-11-16 20:20:30,324- create Jordan plot- plots
+INFO - 2020-11-16 20:20:31,566- create Kazakhstan plot- plots
+INFO - 2020-11-16 20:20:33,391- create Kenya plot- plots
+INFO - 2020-11-16 20:20:37,168- create Korea,_South plot- plots
+INFO - 2020-11-16 20:20:39,474- create Kosovo plot- plots
+INFO - 2020-11-16 20:20:40,619- create Kuwait plot- plots
+INFO - 2020-11-16 20:20:41,657- create Kyrgyzstan plot- plots
+INFO - 2020-11-16 20:20:42,671- create Laos plot- plots
+INFO - 2020-11-16 20:20:44,367- create Latvia plot- plots
+INFO - 2020-11-16 20:20:45,553- create Lebanon plot- plots
+INFO - 2020-11-16 20:20:47,108- create Lesotho plot- plots
+INFO - 2020-11-16 20:20:48,841- create Liberia plot- plots
+INFO - 2020-11-16 20:20:49,957- create Libya plot- plots
+INFO - 2020-11-16 20:20:51,024- create Liechtenstein plot- plots
+INFO - 2020-11-16 20:20:52,056- create Lithuania plot- plots
+INFO - 2020-11-16 20:20:53,296- create Luxembourg plot- plots
+INFO - 2020-11-16 20:20:54,369- create MS_Zaandam plot- plots
+INFO - 2020-11-16 20:20:55,558- create Madagascar plot- plots
+INFO - 2020-11-16 20:20:56,704- create Malawi plot- plots
+INFO - 2020-11-16 20:20:59,278- create Malaysia plot- plots
+INFO - 2020-11-16 20:21:01,457- create Maldives plot- plots
+INFO - 2020-11-16 20:21:03,881- create Mali plot- plots
+INFO - 2020-11-16 20:21:07,622- create Malta plot- plots
+INFO - 2020-11-16 20:21:09,934- create Marshall_Islands plot- plots
+INFO - 2020-11-16 20:21:10,944- create Mauritania plot- plots
+INFO - 2020-11-16 20:21:13,584- create Mauritius plot- plots
+INFO - 2020-11-16 20:21:16,050- create Mexico plot- plots
+INFO - 2020-11-16 20:21:17,940- create Moldova plot- plots
+INFO - 2020-11-16 20:21:19,924- create Monaco plot- plots
+INFO - 2020-11-16 20:21:21,402- create Mongolia plot- plots
+INFO - 2020-11-16 20:21:23,301- create Montenegro plot- plots
+INFO - 2020-11-16 20:21:24,642- create Morocco plot- plots
+INFO - 2020-11-16 20:21:25,805- create Mozambique plot- plots
+INFO - 2020-11-16 20:21:26,885- create Namibia plot- plots
+INFO - 2020-11-16 20:21:28,046- create Nepal plot- plots
+INFO - 2020-11-16 20:21:30,899- create Netherlands - Aruba plot- plots
+INFO - 2020-11-16 20:21:32,446- create Netherlands - Bonaire, Sint Eustatius and Saba plot- plots
+INFO - 2020-11-16 20:21:36,427- create Netherlands - Curacao plot- plots
+INFO - 2020-11-16 20:21:39,225- create Netherlands - Sint Maarten plot- plots
+INFO - 2020-11-16 20:21:40,637- create Netherlands plot- plots
+INFO - 2020-11-16 20:21:41,862- create New_Zealand plot- plots
+INFO - 2020-11-16 20:21:43,219- create Nicaragua plot- plots
+INFO - 2020-11-16 20:21:44,599- create Niger plot- plots
+INFO - 2020-11-16 20:21:46,045- create Nigeria plot- plots
+INFO - 2020-11-16 20:21:47,504- create North_Macedonia plot- plots
+INFO - 2020-11-16 20:21:50,212- create Norway plot- plots
+INFO - 2020-11-16 20:21:51,526- create Oman plot- plots
+INFO - 2020-11-16 20:21:52,833- create Pakistan plot- plots
+INFO - 2020-11-16 20:21:54,655- create Panama plot- plots
+INFO - 2020-11-16 20:21:56,115- create Papua_New_Guinea plot- plots
+INFO - 2020-11-16 20:21:57,405- create Paraguay plot- plots
+INFO - 2020-11-16 20:21:59,025- create Peru plot- plots
+INFO - 2020-11-16 20:22:00,312- create Philippines plot- plots
+INFO - 2020-11-16 20:22:01,838- create Poland plot- plots
+INFO - 2020-11-16 20:22:03,691- create Portugal plot- plots
+INFO - 2020-11-16 20:22:07,481- create Qatar plot- plots
+INFO - 2020-11-16 20:22:10,893- create Romania plot- plots
+INFO - 2020-11-16 20:22:13,203- create Russia plot- plots
+INFO - 2020-11-16 20:22:15,129- create Rwanda plot- plots
+INFO - 2020-11-16 20:22:17,122- create Saint_Kitts_and_Nevis plot- plots
+INFO - 2020-11-16 20:22:19,504- create Saint_Lucia plot- plots
+INFO - 2020-11-16 20:22:21,156- create Saint_Vincent_and_the_Grenadines plot- plots
+INFO - 2020-11-16 20:22:22,461- create San_Marino plot- plots
+INFO - 2020-11-16 20:22:24,639- create Sao_Tome_and_Principe plot- plots
+INFO - 2020-11-16 20:22:26,718- create Saudi_Arabia plot- plots
+INFO - 2020-11-16 20:22:28,136- create Senegal plot- plots
+INFO - 2020-11-16 20:22:29,332- create Serbia plot- plots
+INFO - 2020-11-16 20:22:30,400- create Seychelles plot- plots
+INFO - 2020-11-16 20:22:31,811- create Sierra_Leone plot- plots
+INFO - 2020-11-16 20:22:32,760- create Singapore plot- plots
+INFO - 2020-11-16 20:22:34,276- create Slovakia plot- plots
+INFO - 2020-11-16 20:22:35,214- create Slovenia plot- plots
+INFO - 2020-11-16 20:22:36,301- create Solomon_Islands plot- plots
+INFO - 2020-11-16 20:22:37,974- create Somalia plot- plots
+INFO - 2020-11-16 20:22:39,312- create South_Africa plot- plots
+INFO - 2020-11-16 20:22:40,189- create South_Sudan plot- plots
+INFO - 2020-11-16 20:22:41,293- create Spain plot- plots
+INFO - 2020-11-16 20:22:42,700- create Sri_Lanka plot- plots
+INFO - 2020-11-16 20:22:43,953- create Sudan plot- plots
+INFO - 2020-11-16 20:22:44,857- create Suriname plot- plots
+INFO - 2020-11-16 20:22:45,762- create Sweden plot- plots
+INFO - 2020-11-16 20:22:46,717- create Switzerland plot- plots
+INFO - 2020-11-16 20:22:47,852- create Syria plot- plots
+INFO - 2020-11-16 20:22:49,633- create Taiwan* plot- plots
+INFO - 2020-11-16 20:22:51,001- create Tajikistan plot- plots
+INFO - 2020-11-16 20:22:51,978- create Tanzania plot- plots
+INFO - 2020-11-16 20:22:52,948- create Thailand plot- plots
+INFO - 2020-11-16 20:22:54,378- create Timor-Leste plot- plots
+INFO - 2020-11-16 20:22:55,382- create Togo plot- plots
+INFO - 2020-11-16 20:22:56,326- create Trinidad_and_Tobago plot- plots
+INFO - 2020-11-16 20:22:57,468- create Tunisia plot- plots
+INFO - 2020-11-16 20:22:58,791- create Turkey plot- plots
+INFO - 2020-11-16 20:22:59,957- create US plot- plots
+INFO - 2020-11-16 20:23:00,929- create Uganda plot- plots
+INFO - 2020-11-16 20:23:01,904- create Ukraine plot- plots
+INFO - 2020-11-16 20:23:02,778- create United_Arab_Emirates plot- plots
+INFO - 2020-11-16 20:23:03,867- create United_Kingdom - Anguilla plot- plots
+INFO - 2020-11-16 20:23:04,912- create United_Kingdom - Bermuda plot- plots
+INFO - 2020-11-16 20:23:06,440- create United_Kingdom - British Virgin Islands plot- plots
+INFO - 2020-11-16 20:23:07,427- create United_Kingdom - Cayman Islands plot- plots
+INFO - 2020-11-16 20:23:08,457- create United_Kingdom - Channel Islands plot- plots
+INFO - 2020-11-16 20:23:09,368- create United_Kingdom - Falkland Islands (Malvinas) plot- plots
+INFO - 2020-11-16 20:23:10,366- create United_Kingdom - Gibraltar plot- plots
+INFO - 2020-11-16 20:23:11,500- create United_Kingdom - Isle of Man plot- plots
+INFO - 2020-11-16 20:23:12,330- create United_Kingdom - Montserrat plot- plots
+INFO - 2020-11-16 20:23:13,432- create United_Kingdom - Turks and Caicos Islands plot- plots
+INFO - 2020-11-16 20:23:14,440- create United_Kingdom plot- plots
+INFO - 2020-11-16 20:23:15,586- create Uruguay plot- plots
+INFO - 2020-11-16 20:23:16,910- create Uzbekistan plot- plots
+INFO - 2020-11-16 20:23:17,966- create Vanuatu plot- plots
+INFO - 2020-11-16 20:23:19,111- create Venezuela plot- plots
+INFO - 2020-11-16 20:23:20,046- create Vietnam plot- plots
+INFO - 2020-11-16 20:23:20,950- create West_Bank_and_Gaza plot- plots
+INFO - 2020-11-16 20:23:21,858- create Western_Sahara plot- plots
+INFO - 2020-11-16 20:23:23,077- create Yemen plot- plots
+INFO - 2020-11-16 20:23:24,152- create Zambia plot- plots
+INFO - 2020-11-16 20:23:25,047- create Zimbabwe plot- plots
+INFO - 2020-11-16 20:23:25,991- create World plot- plots
+INFO - 2020-11-16 20:23:26,784- create Canada plot- plots

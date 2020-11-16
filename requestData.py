@@ -12,7 +12,7 @@ def requestPlotsData():
     r = requests.get(urlConfirm)
     j = json.loads(r.text)
     listCountryConfirm = []
-    dictWorld = {'confirm': {}, 'deaths': {}, 'recovery': {}}
+    dictWorldConfirm = {'country': 'World'}
     for e in j['confirmed']:
         del e["Lat"]
         del e["Long"]
@@ -22,22 +22,24 @@ def requestPlotsData():
         del e["Country/Region"]
         del e["Province/State"]
         dictTemp.update(e)
-        # work implemented
+        # worldDict
+        # check
         for key in dictTemp:
-            if key in dictWorld['confirm'].keys():
-                dictWorld['confirm'][key] = dictTemp[key] + dictWorld['confirm'][key]
+            if key in dictWorldConfirm.keys() and key != 'country':
+                dictWorldConfirm.update({key: dictTemp[key]
+                                         + dictWorldConfirm[key]})
             elif key == 'country':
                 pass
             else:
-                dictWorld['confirm'][key] = dictTemp[key]
-        print(dictWorld)
+                dictWorldConfirm.update({key: dictTemp[key]})
         listCountryConfirm.append(dictTemp)
-
+    listCountryConfirm.append(dictWorldConfirm)
     # listcountryConfirm = [{country: '', 'date' : n-case}, {...}]
 
     r = requests.get(urlDeaths)
     j = json.loads(r.text)
     listCountryDeaths = []
+    dictWorldDeaths = {'country': 'World'}
     for e in j['deaths']:
         del e["Lat"]
         del e["Long"]
@@ -47,11 +49,23 @@ def requestPlotsData():
         del e["Country/Region"]
         del e["Province/State"]
         dictTemp.update(e)
+        # worldDict
+
+        for key in dictTemp:
+            if key in dictWorldDeaths.keys() and key != 'country':
+                dictWorldDeaths.update({key: dictTemp[key]
+                                        + dictWorldDeaths[key]})
+            elif key == 'country':
+                pass
+            else:
+                dictWorldDeaths.update({key: dictTemp[key]})
         listCountryDeaths.append(dictTemp)
+    listCountryDeaths.append(dictWorldDeaths)
 
     r = requests.get(urlRecovery)
     j = json.loads(r.text)
     listCountryRecovered = []
+    dictWorldRecovered = {'country': 'World'}
     for e in j['recovered']:
         del e["Lat"]
         del e["Long"]
@@ -61,8 +75,17 @@ def requestPlotsData():
         del e["Country/Region"]
         del e["Province/State"]
         dictTemp.update(e)
+        # worldDict
+        for key in dictTemp:
+            if key in dictWorldRecovered.keys() and key != 'country':
+                dictWorldRecovered.update({key: dictTemp[key]
+                                          + dictWorldRecovered[key]})
+            elif key == 'country':
+                pass
+            else:
+                dictWorldRecovered.update({key: dictTemp[key]})
         listCountryRecovered.append(dictTemp)
-
+    listCountryRecovered.append(dictWorldRecovered)
     #   summaryDict{country:{confirm:{date:case},
     #                       inDayConfirm:{date: inOneDayCases}
     #                       maxInDayConfirm{date:maxConfirmCases}
@@ -73,7 +96,6 @@ def requestPlotsData():
     #                       inDayRecovered:{date: inOneDayCases}
     #                       maxInDayRecovered{date:maxRecoveredCases}}}}
     # create world summary dict ?
-
     summaryDict = {}
     valueList = []
     keyList = []
@@ -143,5 +165,3 @@ def requestPlotsData():
     with open('summary.json', 'w') as f:
         json.dump(summaryDict, f)
     return summaryDict
-
-requestPlotsData()

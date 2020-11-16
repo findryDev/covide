@@ -31,6 +31,9 @@ def create_plot(dataPlots):
         height = ratio * width
         widthHeight = (width, height)
         plt.figure(figsize=widthHeight)
+        # Setting the background color
+        ax = plt.axes()
+        ax.set_facecolor("grey")
         # assigned variable
         countryData = dataPlots[country]
         # create df from data
