@@ -12,16 +12,25 @@ def requestPlotsData():
     r = requests.get(urlConfirm)
     j = json.loads(r.text)
     listCountryConfirm = []
+    dictWorld = {'confirm': {}, 'deaths': {}, 'recovery': {}}
     for e in j['confirmed']:
         del e["Lat"]
         del e["Long"]
         countryRegion = e['Country/Region'] + (
             ' - ' + (e['Province/State'])if e['Province/State'] != '' else '')
         dictTemp = {'country': countryRegion}
-
         del e["Country/Region"]
         del e["Province/State"]
         dictTemp.update(e)
+        # work implemented
+        for key in dictTemp:
+            if key in dictWorld['confirm'].keys():
+                dictWorld['confirm'][key] = dictTemp[key] + dictWorld['confirm'][key]
+            elif key == 'country':
+                pass
+            else:
+                dictWorld['confirm'][key] = dictTemp[key]
+        print(dictWorld)
         listCountryConfirm.append(dictTemp)
 
     # listcountryConfirm = [{country: '', 'date' : n-case}, {...}]
@@ -81,7 +90,9 @@ def requestPlotsData():
         keyList = list(summaryDict[country]['confirm'].keys())
         for i in range(len(keyList)-1):
             summaryDict[country]['inDayConfirm'].update(
-                {keyList[i+1]: valueList[i+1] - valueList[i]})
+                {keyList[i+1]: valueList[i+1] - valueList[i]if
+                 valueList[i+1] - valueList[i] > 0
+                 else 0})
         dayCaseDict = summaryDict[country]['inDayConfirm']
         maxKey = max(dayCaseDict, key=dayCaseDict.get)
         maxValue = dayCaseDict[maxKey]
@@ -100,7 +111,9 @@ def requestPlotsData():
         keyList = list(summaryDict[country]['deaths'].keys())
         for i in range(len(keyList)-1):
             summaryDict[country]['inDayDeaths'].update(
-                {keyList[i+1]: valueList[i+1] - valueList[i]})
+                {keyList[i+1]: valueList[i+1] - valueList[i]if
+                 valueList[i+1] - valueList[i] > 0
+                 else 0})
         dayCaseDict = summaryDict[country]['inDayDeaths']
         maxKey = max(dayCaseDict, key=dayCaseDict.get)
         maxValue = dayCaseDict[maxKey]
@@ -119,7 +132,9 @@ def requestPlotsData():
         keyList = list(summaryDict[country]['recovered'].keys())
         for i in range(len(keyList)-1):
             summaryDict[country]['inDayRecovered'].update(
-                {keyList[i+1]: valueList[i+1] - valueList[i]})
+                {keyList[i+1]: valueList[i+1] - valueList[i] if
+                 valueList[i+1] - valueList[i] > 0
+                 else 0})
         dayCaseDict = summaryDict[country]['inDayRecovered']
         maxKey = max(dayCaseDict, key=dayCaseDict.get)
         maxValue = dayCaseDict[maxKey]
@@ -128,3 +143,5 @@ def requestPlotsData():
     with open('summary.json', 'w') as f:
         json.dump(summaryDict, f)
     return summaryDict
+
+requestPlotsData()
