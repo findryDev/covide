@@ -1,4 +1,5 @@
 from requestData import requestPlotsData
+from httpd import restart
 import timeControl
 import plots
 import htmlLinux
@@ -7,9 +8,10 @@ from time import sleep
 
 # create a custom logger
 loggerCounter = logging.getLogger('counter')
+loggerCounter.setLevel(logging.DEBUG)
 loggerMain = logging.getLogger(__name__)
 loggerMain.setLevel(logging.DEBUG)
-loggerCounter.setLevel(logging.DEBUG)
+
 # create handlers
 print_handler = logging.StreamHandler()
 file_handler = logging.FileHandler('mainFile.log')
@@ -26,13 +28,21 @@ loggerMain.addHandler(file_handler)
 loggerCounter.addHandler(print_handler)
 
 
-if __name__ == "__main__":
-    loggerMain.debug('Start script')
-    plots.create_plot(requestPlotsData())
-    loggerMain.debug('Finished create plots')
-    htmlLinux.htmlMaker()
-    loggerMain.debug('End scripts')
-    waitSeconds = timeControl.waitTo(8)
-    for i in range(waitSeconds, 0, -1):
-        loggerCounter.info(f'Wait {i}')
-        sleep(1)
+while True:
+    try:
+        if __name__ == "__main__":
+            loggerMain.debug('Start script')
+            plots.create_plot(requestPlotsData())
+            loggerMain.debug('Finished create plots')
+            htmlLinux.htmlMaker()
+            loggerMain.debug('Created html')
+            restart()
+            loggerMain.debug('Apache restart')
+            loggerMain.debug('End scripts')
+            waitSeconds = timeControl.waitTo(8)
+            for i in range(waitSeconds, 0, -1):
+                loggerCounter.info(f'Wait {i}')
+                sleep(1)
+    except Exception as e:
+        loggerMain.error("Exception occurred", exc_info=True)
+        break
