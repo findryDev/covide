@@ -10818,3 +10818,8 @@ Traceback (most recent call last):
   File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 34, in <module>
     plots.create_plot(requestPlotsData(-1))
 TypeError: requestPlotsData() takes 0 positional arguments but 1 was given
+DEBUG - 2020-11-17 18:22:31,544- Start script- __main__
+DEBUG - 2020-11-17 18:27:03,647- Finished create plots- __main__
+DEBUG - 2020-11-17 18:27:03,675- Created html- __main__
+DEBUG - 2020-11-17 18:27:03,719- Apache restart- __main__
+DEBUG - 2020-11-17 18:27:03,720- End scripts- __main__
