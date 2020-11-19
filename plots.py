@@ -150,6 +150,12 @@ def create_plot(dataPlots):
         plt.xticks(fontsize=15, rotation=90)
         plt.yticks(fontsize=15, rotation=0)
         plt.title(f'{country}', fontsize=20)
+        plt.text(0.05, 0.85,
+                 f"last data request:\n{dataPlots['dt']}",
+                 transform=ax.transAxes,
+                 bbox=dict(facecolor='grey',
+                           alpha=1),
+                 fontsize=18)
         plt.legend(fontsize=18)
         plt.grid()
         plt.tight_layout()
