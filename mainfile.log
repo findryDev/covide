@@ -11320,3 +11320,21 @@ DEBUG - 2020-11-20 12:06:41,044- Finished create plots- __main__
 DEBUG - 2020-11-20 12:06:41,074- Created html- __main__
 DEBUG - 2020-11-20 12:06:41,102- Apache restart- __main__
 DEBUG - 2020-11-20 12:06:41,103- End scripts- __main__
+DEBUG - 2020-11-20 18:55:05,671- Start script- __main__
+ERROR - 2020-11-20 18:55:20,622- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 135, in create_plot
+    xCorText = datetime.date(year=int(tempDataString.split("/")[2])
+AttributeError: 'dict_keys' object has no attribute 'split'
+DEBUG - 2020-11-20 18:56:58,804- Start script- __main__
+DEBUG - 2020-11-20 19:01:59,282- Finished create plots- __main__
+DEBUG - 2020-11-20 19:01:59,297- Created html- __main__
+DEBUG - 2020-11-20 19:01:59,323- Apache restart- __main__
+DEBUG - 2020-11-20 19:01:59,324- End scripts- __main__
+DEBUG - 2020-11-20 19:05:08,206- Start script- __main__
+DEBUG - 2020-11-20 19:10:04,589- Finished create plots- __main__
+DEBUG - 2020-11-20 19:10:04,606- Created html- __main__
+DEBUG - 2020-11-20 19:10:04,636- Apache restart- __main__
+DEBUG - 2020-11-20 19:10:04,645- End scripts- __main__
