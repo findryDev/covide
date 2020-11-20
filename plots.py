@@ -2,6 +2,7 @@ from matplotlib import pyplot as plt
 from matplotlib import dates as mpl_dates
 import pandas as pd
 import logging
+import datetime
 
 # create a custom logger
 logger = logging.getLogger(__name__)
@@ -25,143 +26,184 @@ logger.addHandler(file_handler)
 
 def create_plot(dataPlots):
     for country in dataPlots:
-        # size of plot
-        ratio = 2/4
-        width = 30
-        height = ratio * width
-        widthHeight = (width, height)
-        plt.figure(figsize=widthHeight)
-        # Setting the background color
-        ax = plt.axes()
-        ax.set_facecolor("grey")
-        # assigned variable
-        countryData = dataPlots[country]
-        # create df from data
-        if 'confirm' in dataPlots[country].keys():
-            confirmData = pd.DataFrame(list(zip(countryData['confirm'].keys(),
-                                            countryData['confirm'].values(),
-                                            countryData['inDayConfirm'].
+        if country != 'dt':
+            # size of plot
+            ratio = 2/4
+            width = 30
+            height = ratio * width
+            widthHeight = (width, height)
+            plt.figure(figsize=widthHeight)
+            # Setting the background color
+            ax = plt.axes()
+            ax.set_facecolor("grey")
+            # assigned variable
+            countryData = dataPlots[country]
+            # create df from data
+            if 'confirm' in dataPlots[country].keys():
+                confirmData = pd.DataFrame(list(zip(countryData['confirm'].keys(),
+                                                countryData['confirm'].values(),
+                                                countryData['inDayConfirm']
+                                                .values())),
+                                        columns=['Date',
+                                                    'AllCaseConfirm',
+                                                    'InDayConfirm'])
+                confirmData['Date'] = pd.to_datetime(confirmData['Date'])
+                confirmData.sort_values('Date', inplace=True)
+            else:
+                confirmData = None
+
+            if 'deaths' in dataPlots[country].keys():
+                deathsData = pd.DataFrame(list(zip(countryData['deaths'].keys(),
+                                            countryData['deaths'].values(),
+                                            countryData['inDayDeaths'].
                                             values())),
-                                       columns=['Date',
-                                                'AllCaseConfirm',
-                                                'InDayConfirm'])
-            confirmData['Date'] = pd.to_datetime(confirmData['Date'])
-            confirmData.sort_values('Date', inplace=True)
-        else:
-            confirmData = None
+                                        columns=['Date',
+                                                'AllCaseDeaths',
+                                                'InDayDeaths'])
+                deathsData['Date'] = pd.to_datetime(deathsData['Date'])
+                deathsData.sort_values('Date', inplace=True)
+            else:
+                deathsData = None
 
-        if 'deaths' in dataPlots[country].keys():
-            deathsData = pd.DataFrame(list(zip(countryData['deaths'].keys(),
-                                           countryData['deaths'].values(),
-                                           countryData['inDayDeaths'].values())
-                                           ),
-                                      columns=['Date',
-                                               'AllCaseDeaths',
-                                               'InDayDeaths'])
-            deathsData['Date'] = pd.to_datetime(deathsData['Date'])
-            deathsData.sort_values('Date', inplace=True)
-        else:
-            deathsData = None
+            if 'recovered' in dataPlots[country].keys():
+                recoveredData = pd.DataFrame(list(zip(countryData['recovered'].
+                                                    keys(),
+                                                countryData['recovered'].
+                                                values(),
+                                                countryData['inDayRecovered'].
+                                                values())),
+                                            columns=['Date',
+                                                    'AllCaseRecovered',
+                                                    'InDayRecovered'])
+                recoveredData['Date'] = pd.to_datetime(recoveredData['Date'])
+                recoveredData.sort_values('Date', inplace=True)
+            else:
+                recoveredData = None
 
-        if 'recovered' in dataPlots[country].keys():
-            recoveredData = pd.DataFrame(list(zip(countryData['recovered'].
-                                                  keys(),
-                                              countryData['recovered'].
-                                              values(),
-                                              countryData['inDayRecovered'].
-                                              values())),
-                                         columns=['Date',
-                                                  'AllCaseRecovered',
-                                                  'InDayRecovered'])
-            recoveredData['Date'] = pd.to_datetime(recoveredData['Date'])
-            recoveredData.sort_values('Date', inplace=True)
-        else:
-            recoveredData = None
+            # set axisX
+            if confirmData is not None:
+                xAxis = confirmData['Date']
+            elif deathsData is not None:
+                xAxis = deathsData['Date']
+            elif recoveredData is not None:
+                xAxis = recoveredData['Date']
+            else:
+                xAxis = None
+            # set axisY
+            if confirmData is not None:
+                # yAxisConfirmAll = confirmData['AllCaseConfirm']
+                yAxisConfirmInDay = confirmData['InDayConfirm']
+            else:
+                # yAxisConfirmAll = None
+                yAxisConfirmInDay = None
 
-        # set axisX
-        if confirmData is not None:
-            xAxis = confirmData['Date']
-        elif deathsData is not None:
-            xAxis = deathsData['Date']
-        elif recoveredData is not None:
-            xAxis = recoveredData['Date']
-        else:
-            xAxis = None
-        # set axisY
-        if confirmData is not None:
-            # yAxisConfirmAll = confirmData['AllCaseConfirm']
-            yAxisConfirmInDay = confirmData['InDayConfirm']
-        else:
-            # yAxisConfirmAll = None
-            yAxisConfirmInDay = None
+            if deathsData is not None:
+                # yAxisDeathsAll = deathsData['AllCaseDeaths']
+                yAxisDeathsInDay = deathsData['InDayDeaths']
+            else:
+                # yAxisDeathsAll = None
+                yAxisDeathsInDay = None
 
-        if deathsData is not None:
-            # yAxisDeathsAll = deathsData['AllCaseDeaths']
-            yAxisDeathsInDay = deathsData['InDayDeaths']
-        else:
-            # yAxisDeathsAll = None
-            yAxisDeathsInDay = None
+            if recoveredData is not None:
+                # yAxisRecoveredAll = recoveredData['AllCaseRecovered']
+                yAxisRecoveredInDay = recoveredData['InDayRecovered']
+            else:
+                # yAxisRecoveredAll = None
+                yAxisRecoveredInDay = None
 
-        if recoveredData is not None:
-            # yAxisRecoveredAll = recoveredData['AllCaseRecovered']
-            yAxisRecoveredInDay = recoveredData['InDayRecovered']
-        else:
-            # yAxisRecoveredAll = None
-            yAxisRecoveredInDay = None
+            # plots create
+            # plt.plot_date(xAxis, yAxisConfirmAll,
+            #               label='ConfirmAll',
+            #               color='yellow',
+            #               marker='.',
+            #               linestyle='-')
+            if confirmData is not None:
+                plt.plot_date(xAxis, yAxisConfirmInDay,
+                            label='Confirm in day',
+                            color='yellow',
+                            linestyle='-')
+                tempDataString = list(countryData['maxInDayConfirm'].keys())[0]
+                currentCentry = 2000
+                xCorText = datetime.date(year=int(tempDataString.split("/")[2])
+                                        + currentCentry,
+                                        month=int(tempDataString.split("/")[0]),
+                                        day=int(tempDataString.split("/")[1]))
+                yCorText = list(countryData['maxInDayConfirm'].values())[0]
+                plt.text(xCorText,
+                        yCorText,
+                        'max confirm cases',
+                        fontsize=18,
+                        color='yellow',
+                        horizontalalignment='right')
+            # plot deaths
+            # plt.plot_date(xAxis, yAxisDeathsAll,
+            #               label='Deaths',
+            #               color='black',
+            #               marker='.',
+            #               linestyle='--')
+            if deathsData is not None:
+                plt.plot_date(xAxis, yAxisDeathsInDay,
+                            label='Deaths in day',
+                            color='black',
+                            linestyle='--')
+                tempDataString = list(countryData['maxInDayDeaths'].keys())[0]
+                currentCentry = 2000
+                xCorText = datetime.date(year=int(tempDataString.split("/")[2])
+                                        + currentCentry,
+                                        month=int(tempDataString.split("/")[0]),
+                                        day=int(tempDataString.split("/")[1]))
+                yCorText = list(countryData['maxInDayDeaths'].values())[0]
+                plt.text(xCorText,
+                        yCorText,
+                        'max deaths cases',
+                        fontsize=18,
+                        color='black',
+                        horizontalalignment='right')
+            # plot recovery
+            # plt.plot_date(xAxis, yAxisRecoveredAll,
+            #               label='Recovered',
+            #               color='green',
+            #               marker='.',
+            #               linestyle='-.')
+            if recoveredData is not None:
+                plt.plot_date(xAxis, yAxisRecoveredInDay,
+                            label='Recovered in day',
+                            color='green',
+                            linestyle='-.')
+                tempDataString = list(countryData['maxInDayRecovered'].keys())[0]
+                currentCentry = 2000
+                xCorText = datetime.date(year=int(tempDataString.split("/")[2])
+                                        + currentCentry,
+                                        month=int(tempDataString.split("/")[0]),
+                                        day=int(tempDataString.split("/")[1]))
+                yCorText = list(countryData['maxInDayRecovered'].values())[0]
+                plt.text(xCorText,
+                        yCorText,
+                        'max rovered cases',
+                        fontsize=18,
+                        color='green',
+                        horizontalalignment='right')
+            # plots settings
+            date_format = mpl_dates.DateFormatter('%d-%m-%Y')
+            plt.gca().xaxis.set_major_formatter(date_format)
+            plt.xlabel('Date', fontsize=15)
+            plt.ylabel('Cases', fontsize=15)
+            plt.xticks(fontsize=15, rotation=90)
+            plt.yticks(fontsize=15, rotation=0)
+            plt.title(f'{country}', fontsize=20)
+            plt.text(0.05, 0.85,
+                    f"last data request:\n{dataPlots['dt']}",
+                    transform=ax.transAxes,
+                    bbox=dict(facecolor='grey',
+                            alpha=0.5),
+                    fontsize=18)
+            plt.legend(fontsize=18)
+            plt.grid()
+            plt.tight_layout()
+            plt.savefig(f'plots/{country.replace("*", "")}.png')
+            plt.cla()   # Clear axis
+            plt.clf()   # Clear figure
+            plt.close()
+            logger.info(f'create {country} plot')
+            # plt.show()
 
-        # plots create
-        # plt.plot_date(xAxis, yAxisConfirmAll,
-        #               label='ConfirmAll',
-        #               color='yellow',
-        #               marker='.',
-        #               linestyle='-')
-        if confirmData is not None:
-            plt.plot_date(xAxis, yAxisConfirmInDay,
-                          label='Confirm in day',
-                          color='yellow',
-                          linestyle='-')
-        # plot deaths
-        # plt.plot_date(xAxis, yAxisDeathsAll,
-        #               label='Deaths',
-        #               color='black',
-        #               marker='.',
-        #               linestyle='--')
-        if deathsData is not None:
-            plt.plot_date(xAxis, yAxisDeathsInDay,
-                          label='Deaths in day',
-                          color='black',
-                          linestyle='--')
-        # plot recovery
-        # plt.plot_date(xAxis, yAxisRecoveredAll,
-        #               label='Recovered',
-        #               color='green',
-        #               marker='.',
-        #               linestyle='-.')
-        if recoveredData is not None:
-            plt.plot_date(xAxis, yAxisRecoveredInDay,
-                          label='Recovered in day',
-                          color='green',
-                          linestyle='-.')
-        # plots settings
-        date_format = mpl_dates.DateFormatter('%d-%m-%Y')
-        plt.gca().xaxis.set_major_formatter(date_format)
-        plt.xlabel('Date', fontsize=15)
-        plt.ylabel('Cases', fontsize=15)
-        plt.xticks(fontsize=15, rotation=90)
-        plt.yticks(fontsize=15, rotation=0)
-        plt.title(f'{country}', fontsize=20)
-        plt.text(0.05, 0.85,
-                 f"last data request:\n{dataPlots['dt']}",
-                 transform=ax.transAxes,
-                 bbox=dict(facecolor='grey',
-                           alpha=1),
-                 fontsize=18)
-        plt.legend(fontsize=18)
-        plt.grid()
-        plt.tight_layout()
-        plt.savefig(f'plots/{country.replace("*", "")}.png')
-        plt.cla()   # Clear axis
-        plt.clf()   # Clear figure
-        plt.close()
-        logger.info(f'create {country} plot')
-        # plt.show()

@@ -1,4 +1,4 @@
 import requestData
 
 d = requestData.requestPlotsData()
-print(d['dt'])
+print(d.keys())

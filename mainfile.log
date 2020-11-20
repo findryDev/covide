@@ -10837,3 +10837,486 @@ DEBUG - 2020-11-19 14:50:56,437- Start script- __main__
 DEBUG - 2020-11-19 14:52:06,538- Start script- __main__
 DEBUG - 2020-11-19 14:53:17,241- Start script- __main__
 DEBUG - 2020-11-19 14:54:02,042- Start script- __main__
+DEBUG - 2020-11-20 04:35:50,561- Start script- __main__
+ERROR - 2020-11-20 04:36:17,328- Exception occurred- __main__
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\indexes\base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 129, in create_plot
+    plt.text(confirmData['date'],
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\indexes\base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: 'date'
+DEBUG - 2020-11-20 04:40:17,176- Start script- __main__
+ERROR - 2020-11-20 04:40:31,781- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 129, in create_plot
+    plt.text(confirmData['Date'],
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\pyplot.py", line 3009, in text
+    return gca().text(x, y, s, fontdict=fontdict, **kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axes\_axes.py", line 765, in text
+    t = mtext.Text(x, y, text=s, **effective_kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 151, in __init__
+    self.set_text(text)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 1165, in set_text
+    if s != self._text:
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\generic.py", line 1329, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+DEBUG - 2020-11-20 04:43:22,784- Start script- __main__
+ERROR - 2020-11-20 04:43:35,110- Exception occurred- __main__
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1523, in convert_units
+    ret = self.converter.convert(x, self.units, self)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\category.py", line 49, in convert
+    raise ValueError(
+ValueError: Missing category information for StrCategoryConverter; this might be caused by unintendedly mixing categorical and numeric data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 84, in auto_adjust_subplotpars
+    bb += [ax.get_tightbbox(renderer, for_layout_only=True)]
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axes\_base.py", line 4200, in get_tightbbox
+    bbox = a.get_tightbbox(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 278, in get_tightbbox
+    bbox = self.get_window_extent(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 902, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 274, in _get_layout
+    key = self.get_prop_tup(renderer=renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 842, in get_prop_tup
+    x, y = self.get_unitless_position()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 825, in get_unitless_position
+    y = float(self.convert_yunits(self._y))
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 187, in convert_yunits
+    return ax.yaxis.convert_units(y)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1525, in convert_units
+    raise munits.ConversionError('Failed to convert value(s) to axis '
+matplotlib.units.ConversionError: Failed to convert value(s) to axis units: 0    6/5/20
+Name: maxInDayConfirm, dtype: object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1523, in convert_units
+    ret = self.converter.convert(x, self.units, self)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\category.py", line 49, in convert
+    raise ValueError(
+ValueError: Missing category information for StrCategoryConverter; this might be caused by unintendedly mixing categorical and numeric data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 172, in create_plot
+    plt.tight_layout()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\cbook\deprecation.py", line 451, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\pyplot.py", line 1506, in tight_layout
+    gcf().tight_layout(pad=pad, h_pad=h_pad, w_pad=w_pad, rect=rect)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\cbook\deprecation.py", line 411, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\figure.py", line 2613, in tight_layout
+    kwargs = get_tight_layout_figure(
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 303, in get_tight_layout_figure
+    kwargs = auto_adjust_subplotpars(fig, renderer,
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 86, in auto_adjust_subplotpars
+    bb += [ax.get_tightbbox(renderer)]
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axes\_base.py", line 4200, in get_tightbbox
+    bbox = a.get_tightbbox(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 278, in get_tightbbox
+    bbox = self.get_window_extent(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 902, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 274, in _get_layout
+    key = self.get_prop_tup(renderer=renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 842, in get_prop_tup
+    x, y = self.get_unitless_position()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 825, in get_unitless_position
+    y = float(self.convert_yunits(self._y))
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 187, in convert_yunits
+    return ax.yaxis.convert_units(y)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1525, in convert_units
+    raise munits.ConversionError('Failed to convert value(s) to axis '
+matplotlib.units.ConversionError: Failed to convert value(s) to axis units: 0    6/5/20
+Name: maxInDayConfirm, dtype: object
+DEBUG - 2020-11-20 04:47:31,534- Start script- __main__
+ERROR - 2020-11-20 04:47:46,905- Exception occurred- __main__
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1523, in convert_units
+    ret = self.converter.convert(x, self.units, self)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\category.py", line 49, in convert
+    raise ValueError(
+ValueError: Missing category information for StrCategoryConverter; this might be caused by unintendedly mixing categorical and numeric data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 84, in auto_adjust_subplotpars
+    bb += [ax.get_tightbbox(renderer, for_layout_only=True)]
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axes\_base.py", line 4200, in get_tightbbox
+    bbox = a.get_tightbbox(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 278, in get_tightbbox
+    bbox = self.get_window_extent(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 902, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 274, in _get_layout
+    key = self.get_prop_tup(renderer=renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 842, in get_prop_tup
+    x, y = self.get_unitless_position()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 825, in get_unitless_position
+    y = float(self.convert_yunits(self._y))
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 187, in convert_yunits
+    return ax.yaxis.convert_units(y)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1525, in convert_units
+    raise munits.ConversionError('Failed to convert value(s) to axis '
+matplotlib.units.ConversionError: Failed to convert value(s) to axis units: 0    6/5/20
+Name: maxInDayConfirm, dtype: object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1523, in convert_units
+    ret = self.converter.convert(x, self.units, self)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\category.py", line 49, in convert
+    raise ValueError(
+ValueError: Missing category information for StrCategoryConverter; this might be caused by unintendedly mixing categorical and numeric data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 172, in create_plot
+    plt.tight_layout()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\cbook\deprecation.py", line 451, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\pyplot.py", line 1506, in tight_layout
+    gcf().tight_layout(pad=pad, h_pad=h_pad, w_pad=w_pad, rect=rect)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\cbook\deprecation.py", line 411, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\figure.py", line 2613, in tight_layout
+    kwargs = get_tight_layout_figure(
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 303, in get_tight_layout_figure
+    kwargs = auto_adjust_subplotpars(fig, renderer,
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 86, in auto_adjust_subplotpars
+    bb += [ax.get_tightbbox(renderer)]
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axes\_base.py", line 4200, in get_tightbbox
+    bbox = a.get_tightbbox(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 278, in get_tightbbox
+    bbox = self.get_window_extent(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 902, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 274, in _get_layout
+    key = self.get_prop_tup(renderer=renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 842, in get_prop_tup
+    x, y = self.get_unitless_position()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 825, in get_unitless_position
+    y = float(self.convert_yunits(self._y))
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 187, in convert_yunits
+    return ax.yaxis.convert_units(y)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1525, in convert_units
+    raise munits.ConversionError('Failed to convert value(s) to axis '
+matplotlib.units.ConversionError: Failed to convert value(s) to axis units: 0    6/5/20
+Name: maxInDayConfirm, dtype: object
+DEBUG - 2020-11-20 04:48:15,223- Start script- __main__
+ERROR - 2020-11-20 04:48:31,008- Exception occurred- __main__
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1523, in convert_units
+    ret = self.converter.convert(x, self.units, self)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\category.py", line 49, in convert
+    raise ValueError(
+ValueError: Missing category information for StrCategoryConverter; this might be caused by unintendedly mixing categorical and numeric data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 84, in auto_adjust_subplotpars
+    bb += [ax.get_tightbbox(renderer, for_layout_only=True)]
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axes\_base.py", line 4200, in get_tightbbox
+    bbox = a.get_tightbbox(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 278, in get_tightbbox
+    bbox = self.get_window_extent(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 902, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 274, in _get_layout
+    key = self.get_prop_tup(renderer=renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 842, in get_prop_tup
+    x, y = self.get_unitless_position()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 825, in get_unitless_position
+    y = float(self.convert_yunits(self._y))
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 187, in convert_yunits
+    return ax.yaxis.convert_units(y)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1525, in convert_units
+    raise munits.ConversionError('Failed to convert value(s) to axis '
+matplotlib.units.ConversionError: Failed to convert value(s) to axis units: 0    6/5/20
+Name: maxInDayConfirm, dtype: object
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1523, in convert_units
+    ret = self.converter.convert(x, self.units, self)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\category.py", line 49, in convert
+    raise ValueError(
+ValueError: Missing category information for StrCategoryConverter; this might be caused by unintendedly mixing categorical and numeric data
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 172, in create_plot
+    plt.tight_layout()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\cbook\deprecation.py", line 451, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\pyplot.py", line 1506, in tight_layout
+    gcf().tight_layout(pad=pad, h_pad=h_pad, w_pad=w_pad, rect=rect)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\cbook\deprecation.py", line 411, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\figure.py", line 2613, in tight_layout
+    kwargs = get_tight_layout_figure(
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 303, in get_tight_layout_figure
+    kwargs = auto_adjust_subplotpars(fig, renderer,
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\tight_layout.py", line 86, in auto_adjust_subplotpars
+    bb += [ax.get_tightbbox(renderer)]
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axes\_base.py", line 4200, in get_tightbbox
+    bbox = a.get_tightbbox(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 278, in get_tightbbox
+    bbox = self.get_window_extent(renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 902, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 274, in _get_layout
+    key = self.get_prop_tup(renderer=renderer)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 842, in get_prop_tup
+    x, y = self.get_unitless_position()
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 825, in get_unitless_position
+    y = float(self.convert_yunits(self._y))
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 187, in convert_yunits
+    return ax.yaxis.convert_units(y)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axis.py", line 1525, in convert_units
+    raise munits.ConversionError('Failed to convert value(s) to axis '
+matplotlib.units.ConversionError: Failed to convert value(s) to axis units: 0    6/5/20
+Name: maxInDayConfirm, dtype: object
+DEBUG - 2020-11-20 04:51:20,407- Start script- __main__
+ERROR - 2020-11-20 04:52:02,080- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 131, in create_plot
+    dataPlots[''],
+KeyError: ''
+DEBUG - 2020-11-20 04:53:02,155- Start script- __main__
+ERROR - 2020-11-20 04:53:18,489- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 132, in create_plot
+    dataPlots[''],
+KeyError: ''
+DEBUG - 2020-11-20 04:53:32,423- Start script- __main__
+ERROR - 2020-11-20 04:53:47,113- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 132, in create_plot
+    dataPlots[''],
+KeyError: ''
+DEBUG - 2020-11-20 04:55:19,825- Start script- __main__
+ERROR - 2020-11-20 04:55:35,578- Exception occurred- __main__
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\indexes\base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: ('maxInDayConfirm', 'Date')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 53, in create_plot
+    print(confirmData['maxInDayConfirm', 'Date'])
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\indexes\base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: ('maxInDayConfirm', 'Date')
+DEBUG - 2020-11-20 04:56:13,900- Start script- __main__
+ERROR - 2020-11-20 04:56:33,830- Exception occurred- __main__
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\indexes\base.py", line 2895, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: ('maxInDayConfirm', 'Date')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 53, in create_plot
+    print(confirmData['maxInDayConfirm', 'Date'])
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\pandas\core\indexes\base.py", line 2897, in get_loc
+    raise KeyError(key) from err
+KeyError: ('maxInDayConfirm', 'Date')
+DEBUG - 2020-11-20 04:56:52,406- Start script- __main__
+ERROR - 2020-11-20 04:57:13,599- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 132, in create_plot
+    dataPlots[''],
+KeyError: ''
+DEBUG - 2020-11-20 04:58:14,312- Start script- __main__
+ERROR - 2020-11-20 04:58:30,541- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 132, in create_plot
+    dataPlots[''],
+KeyError: ''
+DEBUG - 2020-11-20 08:57:19,164- Start script- __main__
+ERROR - 2020-11-20 08:57:52,997- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 125, in create_plot
+    tempDataString = countryData['maxInDayConfirm'].keys()[0]
+TypeError: 'dict_keys' object is not subscriptable
+DEBUG - 2020-11-20 09:00:36,234- Start script- __main__
+ERROR - 2020-11-20 09:01:53,008- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 124, in create_plot
+    tempDataString = countryData['maxInDayConfirm'].keys()[0]
+TypeError: 'dict_keys' object is not subscriptable
+DEBUG - 2020-11-20 09:02:05,015- Start script- __main__
+DEBUG - 2020-11-20 09:12:32,311- Start script- __main__
+DEBUG - 2020-11-20 09:14:24,176- Start script- __main__
+DEBUG - 2020-11-20 09:15:54,958- Start script- __main__
+ERROR - 2020-11-20 09:23:13,309- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 125, in create_plot
+    xCorText = datetime.date(year=tempDataString.split("/")[2],
+TypeError: an integer is required (got type str)
+DEBUG - 2020-11-20 09:24:15,468- Start script- __main__
+DEBUG - 2020-11-20 09:26:31,702- Start script- __main__
+DEBUG - 2020-11-20 09:41:47,938- Start script- __main__
+DEBUG - 2020-11-20 11:29:30,758- Start script- __main__
+DEBUG - 2020-11-20 11:32:54,784- Start script- __main__
+DEBUG - 2020-11-20 11:34:11,171- Start script- __main__
+DEBUG - 2020-11-20 11:35:50,952- Start script- __main__
+DEBUG - 2020-11-20 11:41:27,763- Start script- __main__
+ERROR - 2020-11-20 11:44:11,703- Exception occurred- __main__
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\urllib3\response.py", line 438, in _error_catcher
+    yield
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\urllib3\response.py", line 519, in read
+    data = self._fp.read(amt) if not fp_closed else b""
+  File "c:\users\filip\appdata\local\programs\python\python39\lib\http\client.py", line 458, in read
+    n = self.readinto(b)
+  File "c:\users\filip\appdata\local\programs\python\python39\lib\http\client.py", line 502, in readinto
+    n = self.fp.readinto(b)
+  File "c:\users\filip\appdata\local\programs\python\python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "c:\users\filip\appdata\local\programs\python\python39\lib\ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "c:\users\filip\appdata\local\programs\python\python39\lib\ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+ConnectionAbortedError: [WinError 10053] Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\requests\models.py", line 753, in generate
+    for chunk in self.raw.stream(chunk_size, decode_content=True):
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\urllib3\response.py", line 576, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\urllib3\response.py", line 541, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "c:\users\filip\appdata\local\programs\python\python39\lib\contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\urllib3\response.py", line 455, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionAbortedError(10053, 'Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie', None, 10053, None)", ConnectionAbortedError(10053, 'Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\requestData.py", line 65, in requestPlotsData
+    r = requests.get(urlRecovery)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\requests\sessions.py", line 697, in send
+    r.content
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\requests\models.py", line 831, in content
+    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\requests\models.py", line 756, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionAbortedError(10053, 'Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie', None, 10053, None)", ConnectionAbortedError(10053, 'Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie', None, 10053, None))
+DEBUG - 2020-11-20 11:45:32,637- Start script- __main__
+ERROR - 2020-11-20 11:46:08,535- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 131, in create_plot
+    plt.text(xCorText,
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\pyplot.py", line 3009, in text
+    return gca().text(x, y, s, fontdict=fontdict, **kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\axes\_axes.py", line 765, in text
+    t = mtext.Text(x, y, text=s, **effective_kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 166, in __init__
+    self.update(kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\text.py", line 179, in update
+    super().update(kwargs)
+  File "C:\Users\filip\.virtualenvs\covide-enHYb3tm\lib\site-packages\matplotlib\artist.py", line 996, in update
+    raise AttributeError(f"{type(self).__name__!r} object "
+AttributeError: 'Text' object has no property 'horizontalaligment'
+DEBUG - 2020-11-20 11:47:18,640- Start script- __main__
+ERROR - 2020-11-20 11:52:39,324- Exception occurred- __main__
+Traceback (most recent call last):
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\main.py", line 35, in <module>
+    plots.create_plot(requestPlotsData())
+  File "c:\Users\filip\Dysk Google\Programowanie\pythonProjects\covide\plots.py", line 41, in create_plot
+    if 'confirm' in dataPlots[country].keys():
+AttributeError: 'str' object has no attribute 'keys'
+DEBUG - 2020-11-20 12:01:37,842- Start script- __main__
+DEBUG - 2020-11-20 12:06:41,044- Finished create plots- __main__
+DEBUG - 2020-11-20 12:06:41,074- Created html- __main__
+DEBUG - 2020-11-20 12:06:41,102- Apache restart- __main__
+DEBUG - 2020-11-20 12:06:41,103- End scripts- __main__
