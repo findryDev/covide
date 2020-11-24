@@ -4,10 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-
 pylint = "*"
 pycodestyle = "*"
-
 
 [packages]
 requests = "*"
@@ -15,7 +13,7 @@ pandas = "*"
 matplotlib = "*"
 flake8 = "*"
 numpy = "==1.19.3"
-
+python-dotenv = "*"
 
 [requires]
 python_version = "3.9"

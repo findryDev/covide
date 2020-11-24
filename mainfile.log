@@ -11345,3 +11345,12 @@ DEBUG - 2020-11-24 04:45:39,141- Created html- __main__
 DEBUG - 2020-11-24 04:45:39,180- Apache restart- __main__
 DEBUG - 2020-11-24 04:45:39,182- End scripts- __main__
 DEBUG - 2020-11-24 04:47:46,601- Start script- __main__
+DEBUG - 2020-11-24 11:32:54,943- Start script- __main__
+DEBUG - 2020-11-24 11:33:51,995- Start script- __main__
+DEBUG - 2020-11-24 11:35:13,690- Start script- __main__
+DEBUG - 2020-11-24 11:36:34,720- Start script- __main__
+DEBUG - 2020-11-24 11:36:48,245- Start script- __main__
+DEBUG - 2020-11-24 11:42:45,762- Finished create plots- __main__
+DEBUG - 2020-11-24 11:42:45,804- Created html- __main__
+DEBUG - 2020-11-24 11:42:45,831- Apache restart- __main__
+DEBUG - 2020-11-24 11:42:45,845- End scripts- __main__
