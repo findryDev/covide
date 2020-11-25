@@ -11354,3 +11354,9 @@ DEBUG - 2020-11-24 11:42:45,762- Finished create plots- __main__
 DEBUG - 2020-11-24 11:42:45,804- Created html- __main__
 DEBUG - 2020-11-24 11:42:45,831- Apache restart- __main__
 DEBUG - 2020-11-24 11:42:45,845- End scripts- __main__
+DEBUG - 2020-11-25 04:44:28,445- Start script- __main__
+DEBUG - 2020-11-25 04:50:16,023- Finished create plots- __main__
+DEBUG - 2020-11-25 04:50:16,049- Created html- __main__
+DEBUG - 2020-11-25 04:50:16,080- Apache restart- __main__
+DEBUG - 2020-11-25 04:50:16,080- End scripts- __main__
+DEBUG - 2020-11-25 04:50:34,647- Start script- __main__

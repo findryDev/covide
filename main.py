@@ -1,11 +1,11 @@
+from cov.requestData import requestPlotsData
+from cov.httpd import restart
+import cov.timeControl
+import cov.plots
+import cov.htmlLinux
 import os
 import logging
 from logging.handlers import SMTPHandler
-from requestData import requestPlotsData
-from httpd import restart
-import timeControl
-import plots
-import htmlLinux
 from time import sleep
 from dotenv import load_dotenv
 load_dotenv()
@@ -58,15 +58,15 @@ while True:
         if __name__ == "__main__":
             loggerMain.debug('Start script')
             loggerEmail.info('Start script')
-            plots.create_plot(requestPlotsData())
+            cov.plots.create_plot(requestPlotsData())
             loggerMain.debug('Finished create plots')
-            htmlLinux.htmlMaker()
+            cov.htmlLinux.htmlMaker()
             loggerMain.debug('Created html')
             restart()
             loggerMain.debug('Apache restart')
             loggerMain.debug('End scripts')
             loggerEmail.info('End scripts')
-            waitSeconds = timeControl.waitTo(8)
+            waitSeconds = cov.timeControl.waitTo(8)
             for i in range(waitSeconds, 0, -1):
                 loggerCounter.info(f'Wait {i}')
                 sleep(1)
