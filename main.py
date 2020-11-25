@@ -33,18 +33,20 @@ email_handler = SMTPHandler(mailhost=mailhost,
                             credentials=credentials,
                             secure=())
 # create formatters and add it to handlers
-print_format = logging.Formatter('%(asctime)s - %(message)s')
+print_format = logging.Formatter(('%(asctime)s'
+                                  ' - %(message)s'))
 print_handler.setFormatter(print_format)
-file_format = logging.Formatter('%(levelname)s - %(asctime)s\
-- %(message)s\
-- %(name)s')
+file_format = logging.Formatter(('%(levelname)s'
+                                 ' - %(asctime)s'
+                                 ' - %(message)s'
+                                 ' - %(name)s'))
 file_handler.setFormatter(file_format)
-email_format = logging.Formatter('%(asctime)s\
-                - %(levelname)s\
-                - %(message)s\
-                - %(name)s\
-                - %(filename)s\
-                - %(process)d')
+email_format = logging.Formatter(('%(asctime)s'
+                                  ' - %(levelname)s'
+                                  ' - %(message)s'
+                                  ' - %(name)s'
+                                  ' - %(filename)s'
+                                  ' - %(process)d'))
 email_handler.setFormatter(email_format)
 # add handler to the logger
 loggerMain.addHandler(print_handler)

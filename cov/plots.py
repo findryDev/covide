@@ -13,11 +13,13 @@ file_handler = logging.FileHandler('createPlots.log')
 print_handler.setLevel(logging.INFO)
 file_handler.setLevel(logging.DEBUG)
 # create formatters and add it to handlers
-print_format = logging.Formatter('%(asctime)s - %(message)s')
+print_format = logging.Formatter(('%(asctime)s'
+                                  ' - %(message)s'))
 print_handler.setFormatter(print_format)
-file_format = logging.Formatter('%(levelname)s - %(asctime)s\
-- %(message)s\
-- %(name)s')
+file_format = logging.Formatter(('%(levelname)s'
+                                 ' - %(asctime)s'
+                                 ' - %(message)s'
+                                 ' - %(name)s'))
 file_handler.setFormatter(file_format)
 # add handler to the logger
 logger.addHandler(print_handler)
