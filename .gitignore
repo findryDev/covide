@@ -1,13 +1,6 @@
 __pycache__/
-<<<<<<< HEAD
-.env
-=======
->>>>>>> dev
 plots/
 .env
 .history/
-<<<<<<< HEAD
-plot/
-=======
 Pipfile.lock
->>>>>>> dev
+
