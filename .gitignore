@@ -3,4 +3,4 @@ plots/
 .env
 .history/
 Pipfile.lock
-
+*.log
