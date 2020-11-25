@@ -11338,3 +11338,25 @@ DEBUG - 2020-11-20 19:10:04,589- Finished create plots- __main__
 DEBUG - 2020-11-20 19:10:04,606- Created html- __main__
 DEBUG - 2020-11-20 19:10:04,636- Apache restart- __main__
 DEBUG - 2020-11-20 19:10:04,645- End scripts- __main__
+DEBUG - 2020-11-22 06:40:43,420- Start script- __main__
+DEBUG - 2020-11-24 04:37:52,782- Start script- __main__
+DEBUG - 2020-11-24 04:45:39,116- Finished create plots- __main__
+DEBUG - 2020-11-24 04:45:39,141- Created html- __main__
+DEBUG - 2020-11-24 04:45:39,180- Apache restart- __main__
+DEBUG - 2020-11-24 04:45:39,182- End scripts- __main__
+DEBUG - 2020-11-24 04:47:46,601- Start script- __main__
+DEBUG - 2020-11-24 11:32:54,943- Start script- __main__
+DEBUG - 2020-11-24 11:33:51,995- Start script- __main__
+DEBUG - 2020-11-24 11:35:13,690- Start script- __main__
+DEBUG - 2020-11-24 11:36:34,720- Start script- __main__
+DEBUG - 2020-11-24 11:36:48,245- Start script- __main__
+DEBUG - 2020-11-24 11:42:45,762- Finished create plots- __main__
+DEBUG - 2020-11-24 11:42:45,804- Created html- __main__
+DEBUG - 2020-11-24 11:42:45,831- Apache restart- __main__
+DEBUG - 2020-11-24 11:42:45,845- End scripts- __main__
+DEBUG - 2020-11-25 04:44:28,445- Start script- __main__
+DEBUG - 2020-11-25 04:50:16,023- Finished create plots- __main__
+DEBUG - 2020-11-25 04:50:16,049- Created html- __main__
+DEBUG - 2020-11-25 04:50:16,080- Apache restart- __main__
+DEBUG - 2020-11-25 04:50:16,080- End scripts- __main__
+DEBUG - 2020-11-25 04:50:34,647- Start script- __main__
