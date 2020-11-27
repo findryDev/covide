@@ -9,4 +9,4 @@ def waitTo(hour: int):
                     year=dt.datetime.now(IST).year,
                     month=dt.datetime.now(IST).month,
                     day=dt.datetime.now(IST).day) + dt.timedelta(days=1)
-    return (int((i - dt.datetime.now()).total_seconds()))
+    return (int((i - dt.datetime.now(IST)).total_seconds()))
