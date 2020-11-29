@@ -4,3 +4,4 @@ plots/
 .history/
 Pipfile.lock
 *.log
+flags/

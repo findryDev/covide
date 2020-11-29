@@ -208,7 +208,8 @@ def create_plot(dataPlots):
             plt.yticks(fontsize=15, rotation=0)
             plt.title(f'{country}', fontsize=20)
             plt.text(0.05, 0.85,
-                     f"last data request:\n{dataPlots['dt']}",
+                     (f"last data request:\n{dataPlots['dt']}\n"
+                      "data source:\nhttps://covid2019-api.herokuapp.com/"),
                      transform=ax.transAxes,
                      bbox=dict(facecolor='grey',
                                alpha=0.5),
