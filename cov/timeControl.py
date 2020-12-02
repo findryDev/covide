@@ -1,12 +1,13 @@
 import datetime as dt
 import pytz
 
-IST = pytz.timezone('Europe/Warsaw')
-
 
 def waitTo(hour: int):
+    IST = pytz.timezone('Europe/Warsaw')
+    now = dt.datetime.now(IST)
     i = dt.datetime(hour=hour, minute=0, second=0,
-                    year=dt.datetime.now(IST).year,
-                    month=dt.datetime.now(IST).month,
-                    day=dt.datetime.now(IST).day) + dt.timedelta(days=1)
-    return (int((i - dt.datetime.now(IST)).total_seconds()))
+                    year=dt.datetime.now().year,
+                    month=dt.datetime.now().month,
+                    day=dt.datetime.now().day) + dt.timedelta(days=1)
+    i = pytz.timezone('Europe/Warsaw').localize(i)
+    return (int((i - now).total_seconds()))
