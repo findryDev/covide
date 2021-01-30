@@ -111,9 +111,9 @@ def htmlMaker():
                         <div class="responsive">
                             <div class="gallery">
                                 <a target="_blank" href="plots/{os.path.basename(P)}">
-                                    <img src="flags/{os.path.basename(P)}" alt="{os.path.basename(P).replace(".png", "")}" width="600" height="400">
+                                    <img src="flags/{os.path.basename(P)}" alt="{os.path.basename(P).replace(".png", "")}" width="256" height="192">
                                 </a>
-                                <div class="desc">{os.path.basename(P).replace(".png", "")[0:20]}</div>
+                                <div class="desc">{os.path.basename(P)}</div>
                             </div>
                         </div>
                 '''

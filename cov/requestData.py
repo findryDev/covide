@@ -161,8 +161,12 @@ def requestPlotsData():
         maxKey = max(dayCaseDict, key=dayCaseDict.get)
         maxValue = dayCaseDict[maxKey]
         summaryDict[country]['maxInDayRecovered'].update({maxKey: maxValue})
-    currentDate = ('-').join([j['dt'].split('/')[1],
-                             j['dt'].split('/')[0],
+    currentDate = ('-').join([j['dt'].split('/')[1] if
+                              len(j['dt'].split('/')[1]) > 1 else
+                              ('0' + j['dt'].split('/')[1]),
+                             j['dt'].split('/')[0] if
+                              len(j['dt'].split('/')[0]) > 1 else
+                              ('0' + j['dt'].split('/')[0]),
                              j['dt'].split('/')[2]])
     summaryDict.update({'dt': currentDate})
     with open('summary.json', 'w') as f:

@@ -3,6 +3,7 @@ from cov.httpd import restart
 import cov.timeControl
 import cov.plots
 import cov.htmlLinux
+from cov.healthCheck import checkScript
 import os
 import logging
 from logging.handlers import SMTPHandler
@@ -68,6 +69,7 @@ while True:
             loggerMain.debug('Apache restart')
             loggerMain.debug('End scripts')
             loggerEmail.info('End scripts')
+            checkScript()
             waitSeconds = cov.timeControl.waitTo(8)
             for i in range(waitSeconds, 0, -1):
                 loggerCounter.info(f'Wait {i}')
