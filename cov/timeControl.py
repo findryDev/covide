@@ -1,6 +1,9 @@
 import datetime as dt
 import pytz
 
+IST = pytz.timezone('Europe/Warsaw')
+now = dt.datetime.now(IST)
+
 
 def waitTo(hour: int):
     IST = pytz.timezone('Europe/Warsaw')
