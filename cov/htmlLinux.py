@@ -106,6 +106,7 @@ def htmlMaker():
     for root, _, files in os.walk('plots'):
         for name in files:
             pngList.append(os.path.join(root, name))
+    pngList.sort()
     for P in pngList:
         partTwo = partTwo + f'''
                         <div class="responsive">
